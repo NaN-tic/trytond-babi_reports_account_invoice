@@ -8,64 +8,64 @@
         <record model="babi.filter" id="open_paid_customer_invoices">
             <field name="name">Posted/Paid Customer Invoices/Credit Notes</field>
             <field name="model" search="[('model', '=', 'account.invoice')]"/>
-            <field name="domain">[('state', 'in', ['posted','paid']), ('type', 'in', ['out_invoice', 'out_credit_note'])]</field>
+            <field name="domain">[('state', 'in', ['posted','paid']), ('type', '=', 'out')]</field>
         </record>
         <record model="babi.filter" id="open_paid_supplier_invoices">
             <field name="name">Posted/Paid Supplier Invoices/Credit Notes</field>
             <field name="model" search="[('model', '=', 'account.invoice')]"/>
-            <field name="domain">[('state', 'in', ['posted','paid']), ('type', 'in', ['in_invoice', 'in_credit_note'])]</field>
+            <field name="domain">[('state', 'in', ['posted','paid']), ('type', '=', 'in')]</field>
         </record>
         <record model="babi.filter" id="open_customer_invoices">
             <field name="name">Posted Customer Invoices/Credit Notes</field>
             <field name="model" search="[('model', '=', 'account.invoice')]"/>
-            <field name="domain">[('state', 'in', ['posted']), ('type', 'in', ['out_invoice', 'out_credit_note'])]</field>
+            <field name="domain">[('state', 'in', ['posted']), ('type', '=', 'out')]</field>
         </record>
         <record model="babi.filter" id="open_supplier_invoices">
             <field name="name">Posted Supplier Invoices/Credit Notes</field>
             <field name="model" search="[('model', '=', 'account.invoice')]"/>
-            <field name="domain">[('state', 'in', ['posted']), ('type', 'in', ['in_invoice', 'in_credit_note'])]</field>
+            <field name="domain">[('state', 'in', ['posted']), ('type', '=', 'in')]</field>
         </record>
         <record model="babi.filter" id="paid_customer_invoices">
             <field name="name">Paid Customer Invoices/Credit Notes</field>
             <field name="model" search="[('model', '=', 'account.invoice')]"/>
-            <field name="domain">[('state', 'in', ['paid']), ('type', 'in', ['out_invoice', 'out_credit_note'])]</field>
+            <field name="domain">[('state', 'in', ['paid']), ('type', '=', 'out')]</field>
         </record>
         <record model="babi.filter" id="paid_supplier_invoices">
             <field name="name">Paid Supplier Invoices/Credit Notes</field>
             <field name="model" search="[('model', '=', 'account.invoice')]"/>
-            <field name="domain">[('state', 'in', ['paid']), ('type', 'in', ['in_invoice', 'in_credit_note'])]</field>
+            <field name="domain">[('state', 'in', ['paid']), ('type', '=', 'in')]</field>
         </record>
 
         <!-- Invoice Lines -->
         <record model="babi.filter" id="open_paid_customer_invoice_lines">
             <field name="name">Posted/Paid Customer Invoices/Credit Notes</field>
             <field name="model" search="[('model', '=', 'account.invoice.line')]"/>
-            <field name="domain">[('invoice.state', 'in', ['posted','paid']), ('invoice.type', 'in', ['out_invoice', 'out_credit_note'])]</field>
+            <field name="domain">[('invoice.state', 'in', ['posted','paid']), ('invoice.type', '=', 'out')]</field>
         </record>
         <record model="babi.filter" id="open_paid_supplier_invoice_lines">
             <field name="name">Posted/Paid Supplier Invoices/Credit Notes</field>
             <field name="model" search="[('model', '=', 'account.invoice.line')]"/>
-            <field name="domain">[('invoice.state', 'in', ['posted','paid']), ('invoice.type', 'in', ['in_invoice', 'in_credit_note'])]</field>
+            <field name="domain">[('invoice.state', 'in', ['posted','paid']), ('invoice.type', '=', 'in')]</field>
         </record>
         <record model="babi.filter" id="open_customer_invoice_lines">
             <field name="name">Posted Customer Invoices/credit_notes</field>
             <field name="model" search="[('model', '=', 'account.invoice.line')]"/>
-            <field name="domain">[('invoice.state', 'in', ['posted']), ('invoice.type', 'in', ['out_invoice', 'out_credit_note'])]</field>
+            <field name="domain">[('invoice.state', 'in', ['posted']), ('invoice.type', '=', 'out')]</field>
         </record>
         <record model="babi.filter" id="open_supplier_invoice_lines">
             <field name="name">Posted Supplier Invoices/credit_notes</field>
             <field name="model" search="[('model', '=', 'account.invoice.line')]"/>
-            <field name="domain">[('invoice.state', 'in', ['posted']), ('invoice.type', 'in', ['in_invoice', 'in_credit_note'])]</field>
+            <field name="domain">[('invoice.state', 'in', ['posted']), ('invoice.type', '=', 'in')]</field>
         </record>
         <record model="babi.filter" id="paid_customer_invoice_lines">
             <field name="name">Paid Customer Invoices/credit_notes</field>
             <field name="model" search="[('model', '=', 'account.invoice.line')]"/>
-            <field name="domain">[('invoice.state', 'in', ['paid']), ('invoice.type', 'in', ['out_invoice', 'out_credit_note'])]</field>
+            <field name="domain">[('invoice.state', 'in', ['paid']), ('invoice.type', '=', 'out')]</field>
         </record>
         <record model="babi.filter" id="paid_supplier_invoice_lines">
             <field name="name">Paid Supplier Invoices/credit_notes</field>
             <field name="model" search="[('model', '=', 'account.invoice.line')]"/>
-            <field name="domain">[('invoice.state', 'in', ['paid']), ('invoice.type', 'in', ['in_invoice', 'in_credit_note'])]</field>
+            <field name="domain">[('invoice.state', 'in', ['paid']), ('invoice.type', '=', 'in')]</field>
         </record>
 
         <!--
@@ -130,19 +130,19 @@
         <record model="babi.expression" id="account_invoice_partner_name">
             <field name="ttype">char</field>
             <field name="model" search="[('model','=','account.invoice')]"/>
-            <field name="expression">o.party and o.party.rec_name</field>
+            <field name="expression">o.party and o.party.rec_name or '(Empty)'</field>
             <field name="name">Party Name</field>
         </record>
         <record model="babi.expression" id="account_invoice_untaxed_amount">
             <field name="ttype">float</field>
             <field name="model" search="[('model','=','account.invoice')]"/>
-            <field name="expression">o.untaxed_amount if o.type in ('out_invoice', 'in_credit_note') else -o.untaxed_amount</field>
+            <field name="expression">o.untaxed_amount</field>
             <field name="name">Untaxed Amount</field>
         </record>
         <record model="babi.expression" id="account_invoice_total_amount">
             <field name="ttype">float</field>
             <field name="model" search="[('model','=','account.invoice')]"/>
-            <field name="expression">o.total_amount if o.type in ('out_invoice', 'in_credit_note') else -o.total_amount</field>
+            <field name="expression">o.total_amount</field>
             <field name="name">Total Amount</field>
         </record>
         <record model="babi.expression" id="account_invoice_city">
@@ -258,13 +258,13 @@
         <record model="babi.expression" id="account_invoice_line_untaxed_amount">
             <field name="ttype">float</field>
             <field name="model" search="[('model','=','account.invoice.line')]"/>
-            <field name="expression">o.invoice.untaxed_amount if o.invoice.type in ('out_invoice', 'in_credit_note') else -o.invoice.untaxed_amount</field>
+            <field name="expression">o.invoice.untaxed_amount</field>
             <field name="name">Invoice Untaxed Amount</field>
         </record>
         <record model="babi.expression" id="account_invoice_line_total_amount">
             <field name="ttype">float</field>
             <field name="model" search="[('model','=','account.invoice.line')]"/>
-            <field name="expression">o.invoice.total_amount if o.invoice.type in ('out_invoice', 'in_credit_note') else -o.invoice.total_amount</field>
+            <field name="expression">o.invoice.total_amount</field>
             <field name="name">Invoice Total Amount</field>
         </record>
         <record model="babi.expression" id="account_invoice_line_city">
