@@ -80,7 +80,7 @@
             <field name="related_model" search="[('model','=','account.invoice')]"/>
         </record>
         <record model="babi.expression" id="account_invoice">
-            <field name="ttype">int</field>
+            <field name="ttype">integer</field>
             <field name="model" search="[('model','=','account.invoice')]"/>
             <field name="expression">o.id</field>
             <field name="name">ID</field>
