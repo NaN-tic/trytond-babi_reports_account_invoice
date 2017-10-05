@@ -1037,4 +1037,24 @@
             <field name="sequence">2</field>
         </record>
    </data>
+   <data depends="account_invoice_company_currency">
+       <record model="babi.expression" id="account_invoice_untaxed_amount_currency">
+           <field name="ttype">float</field>
+           <field name="model" search="[('model','=','account.invoice')]"/>
+           <field name="expression">o.company_untaxed_amount</field>
+           <field name="name">Amount (Company Currency)</field>
+       </record>
+       <record model="babi.expression" id="account_invoice_total_amount_currency">
+           <field name="ttype">float</field>
+           <field name="model" search="[('model','=','account.invoice')]"/>
+           <field name="expression">o.company_total_amount</field>
+           <field name="name">Total (Company Currency)</field>
+       </record>
+	   <record model="babi.expression" id="account_invoice_line_amount_currency">
+           <field name="ttype">float</field>
+           <field name="model" search="[('model','=','account.invoice.line')]"/>
+           <field name="expression">o.company_amount</field>
+           <field name="name">Amount (Company Currency)</field>
+       </record>
+   </data>
 </tryton>

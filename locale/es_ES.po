@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
 
@@ -243,6 +243,10 @@ msgctxt "model:babi.expression,name:account_invoice_line_account_name"
 msgid "Invoice Account Name"
 msgstr "Nombre cuenta factura"
 
+msgctxt "model:babi.expression,name:account_invoice_line_amount_currency"
+msgid "Amount (Company Currency)"
+msgstr "Importe (Moneda empresa)"
+
 msgctxt "model:babi.expression,name:account_invoice_line_available_quantity"
 msgid "Product Available Quantity"
 msgstr "Cantidad disponible producto"
@@ -415,9 +419,17 @@ msgctxt "model:babi.expression,name:account_invoice_total_amount"
 msgid "Total Amount"
 msgstr "Importe total"
 
+msgctxt "model:babi.expression,name:account_invoice_total_amount_currency"
+msgid "Total (Company Currency)"
+msgstr "Total (Moneda empresa)"
+
 msgctxt "model:babi.expression,name:account_invoice_untaxed_amount"
 msgid "Untaxed Amount"
 msgstr "Base imponible"
+
+msgctxt "model:babi.expression,name:account_invoice_untaxed_amount_currency"
+msgid "Untaxed (Company Currency)"
+msgstr "Base imponible (Moneda Empresa)"
 
 msgctxt "model:babi.expression,name:account_invoice_week"
 msgid "Week"
