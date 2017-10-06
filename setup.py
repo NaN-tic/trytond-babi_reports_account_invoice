@@ -8,7 +8,10 @@ import ConfigParser
 
 MODULE = 'babi_reports_account_invoice'
 PREFIX = 'nantic'
-MODULE2PREFIX = {}
+MODULE2PREFIX = {
+    'babi': 'nantic',
+    'account_payment_type': 'trytonspain',
+}
 
 
 def read(fname):
@@ -41,7 +44,7 @@ setup(name='%s_%s' % (PREFIX, MODULE),
     version=info.get('version', '0.0.1'),
     description='',
     long_description=read('README'),
-    author='NaN·tic',
+    author='NaN-tic',
     url='http://www.nan-tic.com/',
     download_url="https://bitbucket.org/nantic/trytond-%s" % MODULE,
     package_dir={'trytond.modules.%s' % MODULE: '.'},
