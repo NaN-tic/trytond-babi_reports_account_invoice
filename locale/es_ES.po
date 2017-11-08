@@ -199,6 +199,10 @@ msgctxt "model:babi.dimension.column,name:invoice_month_year_date__year"
 msgid "Year"
 msgstr "Año"
 
+msgctxt "model:babi.expression,name:"
+msgid "Total Amount"
+msgstr "Importe total"
+
 msgctxt "model:babi.expression,name:account_invoice"
 msgid "ID"
 msgstr "Identificador"
@@ -251,6 +255,19 @@ msgctxt "model:babi.expression,name:account_invoice_line_city"
 msgid "City"
 msgstr "Ciudad"
 
+msgctxt "model:babi.expression,name:account_invoice_line_commission_percent"
+msgid "Commission (%)"
+msgstr "Comisión (%)"
+
+msgctxt ""
+"model:babi.expression,name:account_invoice_line_commission_percent_over_margin"
+msgid "Margin (%) Over Sale"
+msgstr "Comisión (%) sobre el margen"
+
+msgctxt "model:babi.expression,name:account_invoice_line_cost_price_cimbis"
+msgid "Cost Price"
+msgstr "Precio de coste total"
+
 msgctxt "model:babi.expression,name:account_invoice_line_country"
 msgid "Country"
 msgstr "País"
@@ -278,6 +295,14 @@ msgstr "Código uenta"
 msgctxt "model:babi.expression,name:account_invoice_line_line_account_name"
 msgid "Account Name"
 msgstr "Nombre cuenta"
+
+msgctxt "model:babi.expression,name:account_invoice_line_margin"
+msgid "Margin"
+msgstr "Margen"
+
+msgctxt "model:babi.expression,name:account_invoice_line_margin_percent"
+msgid "Commission (%) Over Margin"
+msgstr "Margen sobre la venta"
 
 msgctxt "model:babi.expression,name:account_invoice_line_month"
 msgid "Month"
