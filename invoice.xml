@@ -1058,31 +1058,31 @@
        </record>
    </data>
    <data depends="commission">
-       <record model="babi.expression" id="account_invoice_line_cost_price_cimbis">
+       <record model="babi.expression" id="commission_account_invoice_line_cost_price">
            <field name="ttype">float</field>
            <field name="model" search="[('model','=','account.invoice.line')]"/>
            <field name="expression">float(o.product.cost_price if o.product else 0.0) * ( o.quantity if o.amount > 0 else -o.quantity )</field>
            <field name="name">Cost Price</field>
        </record>
-       <record model="babi.expression" id="account_invoice_line_margin">
+       <record model="babi.expression" id="commission_account_invoice_line_margin">
            <field name="ttype">float</field>
            <field name="model" search="[('model','=','account.invoice.line')]"/>
            <field name="expression">float(o.amount if o.amount > 0 else -o.amount) - float(o.product.cost_price if o.product else 0.0)*(o.quantity if o.amount > 0 else -o.quantity) - float(sum([x.amount for x in o.commissions]))</field>
            <field name="name">Margin</field>
        </record>
-       <record model="babi.expression" id="account_invoice_line_margin_percent">
+       <record model="babi.expression" id="commission_account_invoice_line_margin_percent">
            <field name="ttype">float</field>
            <field name="model" search="[('model','=','account.invoice.line')]"/>
            <field name="expression">(float(sum([x.amount for x in o.commissions]))/(float(o.amount if o.amount > 0 else -o.amount) - float(o.product.cost_price if o.product else 0.0)*(o.quantity if o.amount > 0 else -o.quantity)))*100 if (float(o.amount if o.amount > 0 else -o.amount) - float(o.product.cost_price if o.product else 0.0)*(o.quantity if o.amount > 0 else -o.quantity)) != 0 else 0.0</field>
            <field name="name">Commission (%) Over Margin</field>
        </record>
-       <record model="babi.expression" id="account_invoice_line_commission_percent">
+       <record model="babi.expression" id="commission_account_invoice_line_commission_percent">
            <field name="ttype">float</field>
            <field name="model" search="[('model','=','account.invoice.line')]"/>
            <field name="expression">(sum([x.amount for x in o.commissions]) / (o.amount if o.amount > 0 else -o.amount))*100 if o.amount else 0.0</field>
            <field name="name">Commission (%)</field>
        </record>
-       <record model="babi.expression" id="account_invoice_line_commission_percent_over_margin">
+       <record model="babi.expression" id="commission_account_invoice_line_commission_percent_over_margin">
           <field name="ttype">float</field>
           <field name="model" search="[('model','=','account.invoice.line')]"/>
           <field name="expression">((float(o.amount if o.invoice.amount > 0 else -o.amount) - float(o.product.cost_price if o.product else 0.0)*(o.quantity if o.amount > 0 else -o.quantity) - float(sum([x.amount for x in o.commissions])))/float(o.amount))*100 if o.amount != 0 else 0.0</field>
