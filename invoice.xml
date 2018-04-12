@@ -8,64 +8,64 @@
         <record model="babi.filter" id="open_paid_customer_invoices">
             <field name="name">Posted/Paid Customer Invoices/Credit Notes</field>
             <field name="model" search="[('model', '=', 'account.invoice')]"/>
-            <field name="domain">[('state', 'in', ['posted','paid']), ('type', '=', 'out')]</field>
+            <field name="domain" eval="[('state', 'in', ['posted','paid']), ('type', '=', 'out')]" pyson="1"/>
         </record>
         <record model="babi.filter" id="open_paid_supplier_invoices">
             <field name="name">Posted/Paid Supplier Invoices/Credit Notes</field>
             <field name="model" search="[('model', '=', 'account.invoice')]"/>
-            <field name="domain">[('state', 'in', ['posted','paid']), ('type', '=', 'in')]</field>
+            <field name="domain" eval="[('state', 'in', ['posted','paid']), ('type', '=', 'in')]" pyson="1"/>
         </record>
         <record model="babi.filter" id="open_customer_invoices">
             <field name="name">Posted Customer Invoices/Credit Notes</field>
             <field name="model" search="[('model', '=', 'account.invoice')]"/>
-            <field name="domain">[('state', 'in', ['posted']), ('type', '=', 'out')]</field>
+            <field name="domain" eval="[('state', 'in', ['posted']), ('type', '=', 'out')]" pyson="1"/>
         </record>
         <record model="babi.filter" id="open_supplier_invoices">
             <field name="name">Posted Supplier Invoices/Credit Notes</field>
             <field name="model" search="[('model', '=', 'account.invoice')]"/>
-            <field name="domain">[('state', 'in', ['posted']), ('type', '=', 'in')]</field>
+            <field name="domain" eval="[('state', 'in', ['posted']), ('type', '=', 'in')]" pyson="1"/>
         </record>
         <record model="babi.filter" id="paid_customer_invoices">
             <field name="name">Paid Customer Invoices/Credit Notes</field>
             <field name="model" search="[('model', '=', 'account.invoice')]"/>
-            <field name="domain">[('state', 'in', ['paid']), ('type', '=', 'out')]</field>
+            <field name="domain" eval="[('state', 'in', ['paid']), ('type', '=', 'out')]" pyson="1"/>
         </record>
         <record model="babi.filter" id="paid_supplier_invoices">
             <field name="name">Paid Supplier Invoices/Credit Notes</field>
             <field name="model" search="[('model', '=', 'account.invoice')]"/>
-            <field name="domain">[('state', 'in', ['paid']), ('type', '=', 'in')]</field>
+            <field name="domain" eval="[('state', 'in', ['paid']), ('type', '=', 'in')]" pyson="1"/>
         </record>
 
         <!-- Invoice Lines -->
         <record model="babi.filter" id="open_paid_customer_invoice_lines">
             <field name="name">Posted/Paid Customer Invoices/Credit Notes</field>
             <field name="model" search="[('model', '=', 'account.invoice.line')]"/>
-            <field name="domain">[('invoice.state', 'in', ['posted','paid']), ('invoice.type', '=', 'out')]</field>
+            <field name="domain" eval="[('invoice.state', 'in', ['posted','paid']), ('invoice.type', '=', 'out')]" pyson="1"/>
         </record>
         <record model="babi.filter" id="open_paid_supplier_invoice_lines">
             <field name="name">Posted/Paid Supplier Invoices/Credit Notes</field>
             <field name="model" search="[('model', '=', 'account.invoice.line')]"/>
-            <field name="domain">[('invoice.state', 'in', ['posted','paid']), ('invoice.type', '=', 'in')]</field>
+            <field name="domain" eval="[('invoice.state', 'in', ['posted','paid']), ('invoice.type', '=', 'in')]" pyson="1"/>
         </record>
         <record model="babi.filter" id="open_customer_invoice_lines">
             <field name="name">Posted Customer Invoices/credit_notes</field>
             <field name="model" search="[('model', '=', 'account.invoice.line')]"/>
-            <field name="domain">[('invoice.state', 'in', ['posted']), ('invoice.type', '=', 'out')]</field>
+            <field name="domain" eval="[('invoice.state', 'in', ['posted']), ('invoice.type', '=', 'out')]" pyson="1"/>
         </record>
         <record model="babi.filter" id="open_supplier_invoice_lines">
             <field name="name">Posted Supplier Invoices/credit_notes</field>
             <field name="model" search="[('model', '=', 'account.invoice.line')]"/>
-            <field name="domain">[('invoice.state', 'in', ['posted']), ('invoice.type', '=', 'in')]</field>
+            <field name="domain" eval="[('invoice.state', 'in', ['posted']), ('invoice.type', '=', 'in')]" pyson="1"/>
         </record>
         <record model="babi.filter" id="paid_customer_invoice_lines">
             <field name="name">Paid Customer Invoices/credit_notes</field>
             <field name="model" search="[('model', '=', 'account.invoice.line')]"/>
-            <field name="domain">[('invoice.state', 'in', ['paid']), ('invoice.type', '=', 'out')]</field>
+            <field name="domain" eval="[('invoice.state', 'in', ['paid']), ('invoice.type', '=', 'out')]" pyson="1"/>
         </record>
         <record model="babi.filter" id="paid_supplier_invoice_lines">
             <field name="name">Paid Supplier Invoices/credit_notes</field>
             <field name="model" search="[('model', '=', 'account.invoice.line')]"/>
-            <field name="domain">[('invoice.state', 'in', ['paid']), ('invoice.type', '=', 'in')]</field>
+            <field name="domain" eval="[('invoice.state', 'in', ['paid']), ('invoice.type', '=', 'in')]" pyson="1"/>
         </record>
 
         <!--
