@@ -247,6 +247,10 @@ msgctxt "model:babi.expression,name:account_invoice_line_account_name"
 msgid "Invoice Account Name"
 msgstr "Nom compte factura"
 
+msgctxt "model:babi.expression,name:account_invoice_line_amount_currency"
+msgid "Amount (Company Currency)"
+msgstr "Import (Moneda de la empresa)"
+
 msgctxt "model:babi.expression,name:account_invoice_line_available_quantity"
 msgid "Product Available Quantity"
 msgstr "Producte quantitat disponible"
@@ -254,19 +258,6 @@ msgstr "Producte quantitat disponible"
 msgctxt "model:babi.expression,name:account_invoice_line_city"
 msgid "City"
 msgstr "Ciutat"
-
-msgctxt "model:babi.expression,name:account_invoice_line_commission_percent"
-msgid "Commission (%)"
-msgstr "Marge sobre venda"
-
-msgctxt ""
-"model:babi.expression,name:account_invoice_line_commission_percent_over_margin"
-msgid "Margin (%) Over Sale"
-msgstr "Comissió (%) sobre el marge"
-
-msgctxt "model:babi.expression,name:account_invoice_line_cost_price_cimbis"
-msgid "Cost Price"
-msgstr "Preu de cost total"
 
 msgctxt "model:babi.expression,name:account_invoice_line_country"
 msgid "Country"
@@ -295,14 +286,6 @@ msgstr "Codi compte"
 msgctxt "model:babi.expression,name:account_invoice_line_line_account_name"
 msgid "Account Name"
 msgstr "Nom compte"
-
-msgctxt "model:babi.expression,name:account_invoice_line_margin"
-msgid "Margin"
-msgstr "Marge"
-
-msgctxt "model:babi.expression,name:account_invoice_line_margin_percent"
-msgid "Commission (%) Over Margin"
-msgstr "Marge sobre venda"
 
 msgctxt "model:babi.expression,name:account_invoice_line_month"
 msgid "Month"
@@ -440,9 +423,17 @@ msgctxt "model:babi.expression,name:account_invoice_total_amount"
 msgid "Total Amount"
 msgstr "Import total"
 
+msgctxt "model:babi.expression,name:account_invoice_total_amount_currency"
+msgid "Total (Company Currency)"
+msgstr "Total (Moneda empresa)"
+
 msgctxt "model:babi.expression,name:account_invoice_untaxed_amount"
 msgid "Untaxed Amount"
 msgstr "Base imposable"
+
+msgctxt "model:babi.expression,name:account_invoice_untaxed_amount_currency"
+msgid "Amount (Company Currency)"
+msgstr "Import (Moneda de la empresa)"
 
 msgctxt "model:babi.expression,name:account_invoice_week"
 msgid "Week"
