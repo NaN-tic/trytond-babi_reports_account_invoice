@@ -40,7 +40,7 @@
         <record model="babi.filter" id="open_paid_customer_invoice_lines">
             <field name="name">Posted/Paid Customer Invoices/Credit Notes</field>
             <field name="model" search="[('model', '=', 'account.invoice.line')]"/>
-            <field name="domain" eval="[('invoice.state', 'in', ['posted','paid']), ('invoice.type', '=', 'out'), ('type', '=', 'line')]]" pyson="1"/>
+            <field name="domain" eval="[('invoice.state', 'in', ['posted','paid']), ('invoice.type', '=', 'out'), ('type', '=', 'line')]" pyson="1"/>
         </record>
         <record model="babi.filter" id="open_paid_supplier_invoice_lines">
             <field name="name">Posted/Paid Supplier Invoices/Credit Notes</field>
