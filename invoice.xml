@@ -40,32 +40,32 @@
         <record model="babi.filter" id="open_paid_customer_invoice_lines">
             <field name="name">Posted/Paid Customer Invoices/Credit Notes</field>
             <field name="model" search="[('model', '=', 'account.invoice.line')]"/>
-            <field name="domain">[('invoice.state', 'in', ['posted','paid']), ('invoice.type', '=', 'out')]</field>
+            <field name="domain">[('invoice.state', 'in', ['posted','paid']), ('invoice.type', '=', 'out'), ('type', '=', 'line')]</field>
         </record>
         <record model="babi.filter" id="open_paid_supplier_invoice_lines">
             <field name="name">Posted/Paid Supplier Invoices/Credit Notes</field>
             <field name="model" search="[('model', '=', 'account.invoice.line')]"/>
-            <field name="domain">[('invoice.state', 'in', ['posted','paid']), ('invoice.type', '=', 'in')]</field>
+            <field name="domain">[('invoice.state', 'in', ['posted','paid']), ('invoice.type', '=', 'in'), ('type', '=', 'line')]</field>
         </record>
         <record model="babi.filter" id="open_customer_invoice_lines">
             <field name="name">Posted Customer Invoices/credit_notes</field>
             <field name="model" search="[('model', '=', 'account.invoice.line')]"/>
-            <field name="domain">[('invoice.state', 'in', ['posted']), ('invoice.type', '=', 'out')]</field>
+            <field name="domain">[('invoice.state', 'in', ['posted']), ('invoice.type', '=', 'out'), ('type', '=', 'line')]</field>
         </record>
         <record model="babi.filter" id="open_supplier_invoice_lines">
             <field name="name">Posted Supplier Invoices/credit_notes</field>
             <field name="model" search="[('model', '=', 'account.invoice.line')]"/>
-            <field name="domain">[('invoice.state', 'in', ['posted']), ('invoice.type', '=', 'in')]</field>
+            <field name="domain">[('invoice.state', 'in', ['posted']), ('invoice.type', '=', 'in'), ('type', '=', 'line')]</field>
         </record>
         <record model="babi.filter" id="paid_customer_invoice_lines">
             <field name="name">Paid Customer Invoices/credit_notes</field>
             <field name="model" search="[('model', '=', 'account.invoice.line')]"/>
-            <field name="domain">[('invoice.state', 'in', ['paid']), ('invoice.type', '=', 'out')]</field>
+            <field name="domain">[('invoice.state', 'in', ['paid']), ('invoice.type', '=', 'out'), ('type', '=', 'line')]</field>
         </record>
         <record model="babi.filter" id="paid_supplier_invoice_lines">
             <field name="name">Paid Supplier Invoices/credit_notes</field>
             <field name="model" search="[('model', '=', 'account.invoice.line')]"/>
-            <field name="domain">[('invoice.state', 'in', ['paid']), ('invoice.type', '=', 'in')]</field>
+            <field name="domain">[('invoice.state', 'in', ['paid']), ('invoice.type', '=', 'in'), ('type', '=', 'line')]</field>
         </record>
 
         <!--
