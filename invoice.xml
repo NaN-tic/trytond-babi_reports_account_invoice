@@ -2,7 +2,7 @@
 <!-- The COPYRIGHT file at the top level of this repository contains the full
      copyright notices and license terms. -->
 <tryton>
-    <data>
+    <data grouped="1">
         <!-- Filters -->
         <!-- Invoices -->
         <record model="babi.filter" id="open_paid_customer_invoices">
