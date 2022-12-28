@@ -1085,7 +1085,7 @@
        <record model="babi.expression" id="commission_account_invoice_line_commission_percent_over_margin">
           <field name="ttype">float</field>
           <field name="model" search="[('model','=','account.invoice.line')]"/>
-          <field name="expression">((float(o.amount if o.invoice.amount > 0 else -o.amount) - float(o.product.cost_price if o.product else 0.0)*(o.quantity if o.amount > 0 else -o.quantity) - float(sum([x.amount for x in o.commissions])))/float(o.amount))*100 if o.amount != 0 else 0.0</field>
+          <field name="expression">((float(o.amount if o.amount > 0 else -o.amount) - float(o.product.cost_price if o.product else 0.0)*(o.quantity if o.amount > 0 else -o.quantity) - float(sum([x.amount for x in o.commissions])))/float(o.amount))*100 if o.amount != 0 else 0.0</field>
           <field name="name">Margin (%) Over Sale</field>
         </record>
    </data>
