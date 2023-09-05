@@ -453,35 +453,35 @@ msgstr "Codi postal"
 
 msgctxt "model:babi.filter,name:open_customer_invoice_lines"
 msgid "Posted Customer Invoices/credit_notes"
-msgstr "Factures/Abonaments de client confirmades"
+msgstr "Factures/Abonaments de client comptabilitzades"
 
 msgctxt "model:babi.filter,name:open_customer_invoices"
 msgid "Posted Customer Invoices/Credit Notes"
-msgstr "Factures/Abonaments de client confirmades"
+msgstr "Factures/Abonaments de client comptabilitzades"
 
 msgctxt "model:babi.filter,name:open_paid_customer_invoice_lines"
 msgid "Posted/Paid Customer Invoices/Credit Notes"
-msgstr "Factures/Abonaments de client confirmades/pagades"
+msgstr "Factures/Abonaments de client comptabilitzades/pagades"
 
 msgctxt "model:babi.filter,name:open_paid_customer_invoices"
 msgid "Posted/Paid Customer Invoices/Credit Notes"
-msgstr "Factures/Abonaments de client confirmades/pagades"
+msgstr "Factures/Abonaments de client comptabilitzades/pagades"
 
 msgctxt "model:babi.filter,name:open_paid_supplier_invoice_lines"
 msgid "Posted/Paid Supplier Invoices/Credit Notes"
-msgstr "Factures/Abonaments de proveïdor confirmades/pagades"
+msgstr "Factures/Abonaments de proveïdor comptabilitzades/pagades"
 
 msgctxt "model:babi.filter,name:open_paid_supplier_invoices"
 msgid "Posted/Paid Supplier Invoices/Credit Notes"
-msgstr "Factures/Abonaments de proveïdor confirmades/pagades"
+msgstr "Factures/Abonaments de proveïdor comptabilitzades/pagades"
 
 msgctxt "model:babi.filter,name:open_supplier_invoice_lines"
 msgid "Posted Supplier Invoices/credit_notes"
-msgstr "Factures/Abonaments de proveïdor confirmades"
+msgstr "Factures/Abonaments de proveïdor comptabilitzades"
 
 msgctxt "model:babi.filter,name:open_supplier_invoices"
 msgid "Posted Supplier Invoices/Credit Notes"
-msgstr "Factures/Abonaments de proveïdor confirmades"
+msgstr "Factures/Abonaments de proveïdor comptabilitzades"
 
 msgctxt "model:babi.filter,name:paid_customer_invoice_lines"
 msgid "Paid Customer Invoices/credit_notes"
