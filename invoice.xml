@@ -222,115 +222,115 @@
         <record model="babi.expression" id="account_invoice_line_year">
             <field name="ttype">char</field>
             <field name="model" search="[('model','=','account.invoice.line')]"/>
-            <field name="expression">y(o.invoice.invoice_date)</field>
+            <field name="expression">y(o.invoice and o.invoice.invoice_date)</field>
             <field name="name">Year</field>
         </record>
         <record model="babi.expression" id="account_invoice_line_month">
             <field name="ttype">char</field>
             <field name="model" search="[('model','=','account.invoice.line')]"/>
-            <field name="expression">m(o.invoice.invoice_date)</field>
+            <field name="expression">m(o.invoice and o.invoice.invoice_date)</field>
             <field name="name">Month</field>
         </record>
         <record model="babi.expression" id="account_invoice_line_day">
             <field name="ttype">char</field>
             <field name="model" search="[('model','=','account.invoice.line')]"/>
-            <field name="expression">d(o.invoice.invoice_date)</field>
+            <field name="expression">d(o.invoice and o.invoice.invoice_date)</field>
             <field name="name">Day</field>
         </record>
         <record model="babi.expression" id="account_invoice_line_year_month">
             <field name="ttype">char</field>
             <field name="model" search="[('model','=','account.invoice.line')]"/>
-            <field name="expression">ym(o.invoice.invoice_date)</field>
+            <field name="expression">ym(o.invoice and o.invoice.invoice_date)</field>
             <field name="name">Year-Month</field>
         </record>
         <record model="babi.expression" id="account_invoice_line_date">
             <field name="ttype">char</field>
             <field name="model" search="[('model','=','account.invoice.line')]"/>
-            <field name="expression">o.invoice.invoice_date</field>
+            <field name="expression">o.invoice and o.invoice.invoice_date</field>
             <field name="name">Date</field>
         </record>
         <record model="babi.expression" id="account_invoice_line_partner_name">
             <field name="ttype">char</field>
             <field name="model" search="[('model','=','account.invoice.line')]"/>
-            <field name="expression">o.invoice.party.rec_name</field>
+            <field name="expression">o.invoice and o.invoice.party.rec_name</field>
             <field name="name">Party Name</field>
         </record>
         <record model="babi.expression" id="account_invoice_line_untaxed_amount">
             <field name="ttype">float</field>
             <field name="model" search="[('model','=','account.invoice.line')]"/>
-            <field name="expression">o.invoice.untaxed_amount</field>
+            <field name="expression">o.invoice and o.invoice.untaxed_amount</field>
             <field name="name">Invoice Untaxed Amount</field>
         </record>
         <record model="babi.expression" id="account_invoice_line_total_amount">
             <field name="ttype">float</field>
             <field name="model" search="[('model','=','account.invoice.line')]"/>
-            <field name="expression">o.invoice.total_amount</field>
+            <field name="expression">o.invoice and o.invoice.total_amount</field>
             <field name="name">Invoice Total Amount</field>
         </record>
         <record model="babi.expression" id="account_invoice_line_city">
             <field name="ttype">char</field>
             <field name="model" search="[('model','=','account.invoice.line')]"/>
-            <field name="expression">o.invoice.invoice_address.city</field>
+            <field name="expression">o.invoice and o.invoice.invoice_address.city</field>
             <field name="name">City</field>
         </record>
         <record model="babi.expression" id="account_invoice_line_zip">
             <field name="ttype">char</field>
             <field name="model" search="[('model','=','account.invoice.line')]"/>
-            <field name="expression">o.invoice.invoice_address.postal_code</field>
+            <field name="expression">o.invoice and o.invoice.invoice_address.postal_code</field>
             <field name="name">Zip</field>
         </record>
         <record model="babi.expression" id="account_invoice_line_region">
             <field name="ttype">char</field>
             <field name="model" search="[('model','=','account.invoice.line')]"/>
-            <field name="expression">o.invoice.invoice_address.subdivision and o.invoice.invoice_address.subdivision.rec_name</field>
+            <field name="expression">o.invoice and o.invoice.invoice_address.subdivision and o.invoice.invoice_address.subdivision.rec_name</field>
             <field name="name">State/Region</field>
         </record>
         <record model="babi.expression" id="account_invoice_line_country">
             <field name="ttype">char</field>
             <field name="model" search="[('model','=','account.invoice.line')]"/>
-            <field name="expression">o.invoice.invoice_address.country and o.invoice.invoice_address.country.rec_name</field>
+            <field name="expression">o.invoice and o.invoice.invoice_address.country and o.invoice.invoice_address.country.rec_name</field>
             <field name="name">Country</field>
         </record>
         <record model="babi.expression" id="account_invoice_line_currency">
             <field name="ttype">char</field>
             <field name="model" search="[('model','=','account.invoice.line')]"/>
-            <field name="expression">o.invoice.currency.rec_name</field>
+            <field name="expression">o.invoice and o.invoice.currency.rec_name</field>
             <field name="name">Currency</field>
         </record>
         <record model="babi.expression" id="account_invoice_line_payment_term">
             <field name="ttype">char</field>
             <field name="model" search="[('model','=','account.invoice.line')]"/>
-            <field name="expression">o.invoice.payment_term.rec_name</field>
+            <field name="expression">o.invoice and o.invoice.payment_term.rec_name</field>
             <field name="name">Payment Term</field>
         </record>
         <record model="babi.expression" id="account_invoice_line_payment_type">
             <field name="ttype">char</field>
             <field name="model" search="[('model','=','account.invoice.line')]"/>
-            <field name="expression">o.invoice.payment_type.rec_name</field>
+            <field name="expression">o.invoice and o.invoice.payment_type.rec_name</field>
             <field name="name">Payment Type</field>
         </record>
         <record model="babi.expression" id="account_invoice_line_period_name">
             <field name="ttype">char</field>
             <field name="model" search="[('model','=','account.invoice.line')]"/>
-            <field name="expression">o.invoice.move.period.rec_name</field>
+            <field name="expression">o.invoice and and o.invoice.move and o.invoice.move.period.rec_name</field>
             <field name="name">Period</field>
         </record>
         <record model="babi.expression" id="account_invoice_line_state">
             <field name="ttype">char</field>
             <field name="model" search="[('model','=','account.invoice.line')]"/>
-            <field name="expression">o.invoice.state</field>
+            <field name="expression">o.invoice and o.invoice.state</field>
             <field name="name">Invoice State</field>
         </record>
         <record model="babi.expression" id="account_invoice_line_account_code">
             <field name="ttype">char</field>
             <field name="model" search="[('model','=','account.invoice.line')]"/>
-            <field name="expression">o.invoice.account.code</field>
+            <field name="expression">o.invoice and o.invoice.account.code</field>
             <field name="name">Invoice Account Code</field>
         </record>
         <record model="babi.expression" id="account_invoice_line_account_name">
             <field name="ttype">char</field>
             <field name="model" search="[('model','=','account.invoice.line')]"/>
-            <field name="expression">o.invoice.account.name</field>
+            <field name="expression">o.invoice and o.invoice.account.name</field>
             <field name="name">Invoice Account Name</field>
         </record>
         <record model="babi.expression" id="account_invoice_line_product">
