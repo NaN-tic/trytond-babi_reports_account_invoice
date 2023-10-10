@@ -312,7 +312,7 @@
         <record model="babi.expression" id="account_invoice_line_period_name">
             <field name="ttype">char</field>
             <field name="model" search="[('model','=','account.invoice.line')]"/>
-            <field name="expression">o.invoice and and o.invoice.move and o.invoice.move.period.rec_name</field>
+            <field name="expression">o.invoice and o.invoice.move and o.invoice.move.period.rec_name</field>
             <field name="name">Period</field>
         </record>
         <record model="babi.expression" id="account_invoice_line_state">
