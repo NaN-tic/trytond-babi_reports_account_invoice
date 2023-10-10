@@ -300,7 +300,7 @@
         <record model="babi.expression" id="account_invoice_line_payment_term">
             <field name="ttype">char</field>
             <field name="model" search="[('model','=','account.invoice.line')]"/>
-            <field name="expression">o.invoice and o.invoice.payment_term.rec_name</field>
+            <field name="expression">o.invoice and o.invoice.payment_term and o.invoice.payment_term.rec_name</field>
             <field name="name">Payment Term</field>
         </record>
         <record model="babi.expression" id="account_invoice_line_payment_type">
