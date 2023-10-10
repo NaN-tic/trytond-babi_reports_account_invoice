@@ -375,14 +375,14 @@
                 id="account_invoice_line_line_account_code">
             <field name="ttype">char</field>
             <field name="model" search="[('model','=','account.invoice.line')]"/>
-            <field name="expression">o.account.code</field>
+            <field name="expression">o.account and o.account.code</field>
             <field name="name">Account Code</field>
         </record>
         <record model="babi.expression"
                 id="account_invoice_line_line_account_name">
             <field name="ttype">char</field>
             <field name="model" search="[('model','=','account.invoice.line')]"/>
-            <field name="expression">o.account.name</field>
+            <field name="expression">o.account and o.account.name</field>
             <field name="name">Account Name</field>
         </record>
         <record model="babi.expression" id="account_invoice_line_price_unit">
@@ -400,7 +400,7 @@
         <record model="babi.expression" id="account_invoice_line_uos">
             <field name="ttype">char</field>
             <field name="model" search="[('model','=','account.invoice.line')]"/>
-            <field name="expression">o.unit.rec_name</field>
+            <field name="expression">o.unit and o.unit.rec_name</field>
             <field name="name">UoM</field>
         </record>
         <record model="babi.expression" id="account_invoice_line_tax_name">
@@ -418,7 +418,7 @@
         <record model="babi.expression" id="account_invoice_line_product_type">
             <field name="ttype">char</field>
             <field name="model" search="[('model','=','account.invoice.line')]"/>
-            <field name="expression">o.product and o.product_id.type</field>
+            <field name="expression">o.product and o.product.type</field>
             <field name="name">Product Type</field>
         </record>
         <record model="babi.expression" id="account_invoice_line_available_quantity">
