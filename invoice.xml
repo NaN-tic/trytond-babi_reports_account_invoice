@@ -365,12 +365,6 @@
             <field name="expression">o.quantity</field>
             <field name="name">Quantity (no UoM conversion)</field>
         </record>
-        <record model="babi.expression" id="account_invoice_line_discount">
-            <field name="ttype">float</field>
-            <field name="model" search="[('model','=','account.invoice.line')]"/>
-            <field name="expression">o.discount</field>
-            <field name="name">Discount</field>
-        </record>
         <record model="babi.expression"
                 id="account_invoice_line_line_account_code">
             <field name="ttype">char</field>
@@ -1088,5 +1082,13 @@
           <field name="expression">((float(o.amount if o.amount > 0 else -o.amount) - float(o.product.cost_price if o.product else 0.0)*(o.quantity if o.amount > 0 else -o.quantity) - float(sum([x.amount for x in o.commissions])))/float(o.amount))*100 if o.amount != 0 else 0.0</field>
           <field name="name">Margin (%) Over Sale</field>
         </record>
+   </data>
+   <data depends="account_invoice_discount">
+       <record model="babi.expression" id="account_invoice_line_discount">
+           <field name="ttype">float</field>
+           <field name="model" search="[('model','=','account.invoice.line')]"/>
+           <field name="expression">o.discount</field>
+           <field name="name">Discount</field>
+       </record>
    </data>
 </tryton>
