@@ -415,18 +415,6 @@
             <field name="expression">o.product and o.product.type</field>
             <field name="name">Product Type</field>
         </record>
-        <record model="babi.expression" id="account_invoice_line_available_quantity">
-            <field name="ttype">float</field>
-            <field name="model" search="[('model','=','account.invoice.line')]"/>
-            <field name="expression">o.product and o.product.quantity</field>
-            <field name="name">Product Available Quantity</field>
-        </record>
-        <record model="babi.expression" id="account_invoice_line_virtual_quantity">
-            <field name="ttype">float</field>
-            <field name="model" search="[('model','=','account.invoice.line')]"/>
-            <field name="expression">o.product and o.product.forecast_quantity</field>
-            <field name="name">Product Forecast Quantity</field>
-        </record>
         <!--
              Reports
         -->
@@ -1089,6 +1077,20 @@
            <field name="model" search="[('model','=','account.invoice.line')]"/>
            <field name="expression">o.discount</field>
            <field name="name">Discount</field>
+       </record>
+   </data>
+   <data depends="stock">
+       <record model="babi.expression" id="account_invoice_line_available_quantity">
+           <field name="ttype">float</field>
+           <field name="model" search="[('model','=','account.invoice.line')]"/>
+           <field name="expression">o.product and o.product.quantity</field>
+           <field name="name">Product Available Quantity</field>
+       </record>
+       <record model="babi.expression" id="account_invoice_line_virtual_quantity">
+           <field name="ttype">float</field>
+           <field name="model" search="[('model','=','account.invoice.line')]"/>
+           <field name="expression">o.product and o.product.forecast_quantity</field>
+           <field name="name">Product Forecast Quantity</field>
        </record>
    </data>
 </tryton>
