@@ -211,6 +211,12 @@
             <field name="expression">o.account.name</field>
             <field name="name">Account Name</field>
         </record>
+        <record model="babi.expression" id="account_invoice_state">
+            <field name="ttype">char</field>
+            <field name="model" search="[('model','=','account.invoice')]"/>
+            <field name="expression">o.type</field>
+            <field name="name">Invoice Type</field>
+        </record>
 
         <!-- account.invoice.line -->
         <record model="babi.expression" id="account_invoice_line">
@@ -414,6 +420,12 @@
             <field name="model" search="[('model','=','account.invoice.line')]"/>
             <field name="expression">o.product and o.product.type</field>
             <field name="name">Product Type</field>
+        </record>
+        <record model="babi.expression" id="account_invoice_line_invoice_type">
+            <field name="ttype">char</field>
+            <field name="model" search="[('model','=','account.invoice.line')]"/>
+            <field name="expression">o.invoice and o.invoice.type</field>
+            <field name="name">Invoice Type</field>
         </record>
         <!--
              Reports
