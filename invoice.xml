@@ -211,7 +211,7 @@
             <field name="expression">o.account.name</field>
             <field name="name">Account Name</field>
         </record>
-        <record model="babi.expression" id="account_invoice_state">
+        <record model="babi.expression" id="account_invoice_type">
             <field name="ttype">char</field>
             <field name="model" search="[('model','=','account.invoice')]"/>
             <field name="expression">o.type</field>
