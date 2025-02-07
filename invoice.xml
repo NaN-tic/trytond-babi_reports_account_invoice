@@ -7,64 +7,64 @@
         <!-- Invoices -->
         <record model="babi.filter" id="open_paid_customer_invoices">
             <field name="name">Posted/Paid Customer Invoices/Credit Notes</field>
-            <field name="model" search="[('model', '=', 'account.invoice')]"/>
+            <field name="model" search="[('name', '=', 'account.invoice')]"/>
             <field name="domain" eval="[('state', 'in', ['posted','paid']), ('type', '=', 'out')]" pyson="1"/>
         </record>
         <record model="babi.filter" id="open_paid_supplier_invoices">
             <field name="name">Posted/Paid Supplier Invoices/Credit Notes</field>
-            <field name="model" search="[('model', '=', 'account.invoice')]"/>
+            <field name="model" search="[('name', '=', 'account.invoice')]"/>
             <field name="domain" eval="[('state', 'in', ['posted','paid']), ('type', '=', 'in')]" pyson="1"/>
         </record>
         <record model="babi.filter" id="open_customer_invoices">
             <field name="name">Posted Customer Invoices/Credit Notes</field>
-            <field name="model" search="[('model', '=', 'account.invoice')]"/>
+            <field name="model" search="[('name', '=', 'account.invoice')]"/>
             <field name="domain" eval="[('state', 'in', ['posted']), ('type', '=', 'out')]" pyson="1"/>
         </record>
         <record model="babi.filter" id="open_supplier_invoices">
             <field name="name">Posted Supplier Invoices/Credit Notes</field>
-            <field name="model" search="[('model', '=', 'account.invoice')]"/>
+            <field name="model" search="[('name', '=', 'account.invoice')]"/>
             <field name="domain" eval="[('state', 'in', ['posted']), ('type', '=', 'in')]" pyson="1"/>
         </record>
         <record model="babi.filter" id="paid_customer_invoices">
             <field name="name">Paid Customer Invoices/Credit Notes</field>
-            <field name="model" search="[('model', '=', 'account.invoice')]"/>
+            <field name="model" search="[('name', '=', 'account.invoice')]"/>
             <field name="domain" eval="[('state', 'in', ['paid']), ('type', '=', 'out')]" pyson="1"/>
         </record>
         <record model="babi.filter" id="paid_supplier_invoices">
             <field name="name">Paid Supplier Invoices/Credit Notes</field>
-            <field name="model" search="[('model', '=', 'account.invoice')]"/>
+            <field name="model" search="[('name', '=', 'account.invoice')]"/>
             <field name="domain" eval="[('state', 'in', ['paid']), ('type', '=', 'in')]" pyson="1"/>
         </record>
 
         <!-- Invoice Lines -->
         <record model="babi.filter" id="open_paid_customer_invoice_lines">
             <field name="name">Posted/Paid Customer Invoices/Credit Notes</field>
-            <field name="model" search="[('model', '=', 'account.invoice.line')]"/>
+            <field name="model" search="[('name', '=', 'account.invoice.line')]"/>
             <field name="domain" eval="[('invoice.state', 'in', ['posted','paid']), ('invoice.type', '=', 'out'), ('type', '=', 'line')]" pyson="1"/>
         </record>
         <record model="babi.filter" id="open_paid_supplier_invoice_lines">
             <field name="name">Posted/Paid Supplier Invoices/Credit Notes</field>
-            <field name="model" search="[('model', '=', 'account.invoice.line')]"/>
+            <field name="model" search="[('name', '=', 'account.invoice.line')]"/>
             <field name="domain" eval="[('invoice.state', 'in', ['posted','paid']), ('invoice.type', '=', 'in'), ('type', '=', 'line')]" pyson="1"/>
         </record>
         <record model="babi.filter" id="open_customer_invoice_lines">
             <field name="name">Posted Customer Invoices/credit_notes</field>
-            <field name="model" search="[('model', '=', 'account.invoice.line')]"/>
+            <field name="model" search="[('name', '=', 'account.invoice.line')]"/>
             <field name="domain" eval="[('invoice.state', 'in', ['posted']), ('invoice.type', '=', 'out'), ('type', '=', 'line')]" pyson="1"/>
         </record>
         <record model="babi.filter" id="open_supplier_invoice_lines">
             <field name="name">Posted Supplier Invoices/credit_notes</field>
-            <field name="model" search="[('model', '=', 'account.invoice.line')]"/>
+            <field name="model" search="[('name', '=', 'account.invoice.line')]"/>
             <field name="domain" eval="[('invoice.state', 'in', ['posted']), ('invoice.type', '=', 'in'), ('type', '=', 'line')]" pyson="1"/>
         </record>
         <record model="babi.filter" id="paid_customer_invoice_lines">
             <field name="name">Paid Customer Invoices/credit_notes</field>
-            <field name="model" search="[('model', '=', 'account.invoice.line')]"/>
+            <field name="model" search="[('name', '=', 'account.invoice.line')]"/>
             <field name="domain" eval="[('invoice.state', 'in', ['paid']), ('invoice.type', '=', 'out'), ('type', '=', 'line')]" pyson="1"/>
         </record>
         <record model="babi.filter" id="paid_supplier_invoice_lines">
             <field name="name">Paid Supplier Invoices/credit_notes</field>
-            <field name="model" search="[('model', '=', 'account.invoice.line')]"/>
+            <field name="model" search="[('name', '=', 'account.invoice.line')]"/>
             <field name="domain" eval="[('invoice.state', 'in', ['paid']), ('invoice.type', '=', 'in'), ('type', '=', 'line')]" pyson="1"/>
         </record>
 
@@ -74,146 +74,146 @@
         <!-- account.invoice -->
         <record model="babi.expression" id="account_invoice_self">
             <field name="ttype">many2one</field>
-            <field name="model" search="[('model','=','account.invoice')]"/>
+            <field name="model" search="[('name','=','account.invoice')]"/>
             <field name="expression">o.id</field>
             <field name="name">Invoice</field>
-            <field name="related_model" search="[('model','=','account.invoice')]"/>
+            <field name="related_model" search="[('name','=','account.invoice')]"/>
         </record>
         <record model="babi.expression" id="account_invoice">
             <field name="ttype">integer</field>
-            <field name="model" search="[('model','=','account.invoice')]"/>
+            <field name="model" search="[('name','=','account.invoice')]"/>
             <field name="expression">o.id</field>
             <field name="name">ID</field>
         </record>
         <record model="babi.expression" id="account_invoice_number">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.invoice')]"/>
+            <field name="model" search="[('name','=','account.invoice')]"/>
             <field name="expression">o.number</field>
             <field name="name">Number</field>
         </record>
         <record model="babi.expression" id="account_invoice_year">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.invoice')]"/>
+            <field name="model" search="[('name','=','account.invoice')]"/>
             <field name="expression">y(o.invoice_date)</field>
             <field name="name">Year</field>
         </record>
         <record model="babi.expression" id="account_invoice_month">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.invoice')]"/>
+            <field name="model" search="[('name','=','account.invoice')]"/>
             <field name="expression">m(o.invoice_date)</field>
             <field name="name">Month</field>
         </record>
         <record model="babi.expression" id="account_invoice_day">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.invoice')]"/>
+            <field name="model" search="[('name','=','account.invoice')]"/>
             <field name="expression">d(o.invoice_date)</field>
             <field name="name">Day</field>
         </record>
         <record model="babi.expression" id="account_invoice_week">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.invoice')]"/>
+            <field name="model" search="[('name','=','account.invoice')]"/>
             <field name="expression">w(o.invoice_date)</field>
             <field name="name">Week</field>
         </record>
         <record model="babi.expression" id="account_invoice_year_month">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.invoice')]"/>
+            <field name="model" search="[('name','=','account.invoice')]"/>
             <field name="expression">ym(o.invoice_date)</field>
             <field name="name">Year-Month</field>
         </record>
         <record model="babi.expression" id="account_invoice_date">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.invoice')]"/>
+            <field name="model" search="[('name','=','account.invoice')]"/>
             <field name="expression">ymd(o.invoice_date)</field>
             <field name="name">Date</field>
         </record>
         <record model="babi.expression" id="account_invoice_partner_name">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.invoice')]"/>
+            <field name="model" search="[('name','=','account.invoice')]"/>
             <field name="expression">o.party and o.party.rec_name or '(Empty)'</field>
             <field name="name">Party Name</field>
         </record>
         <record model="babi.expression" id="account_invoice_untaxed_amount">
             <field name="ttype">float</field>
-            <field name="model" search="[('model','=','account.invoice')]"/>
+            <field name="model" search="[('name','=','account.invoice')]"/>
             <field name="expression">o.untaxed_amount</field>
             <field name="name">Untaxed Amount</field>
         </record>
         <record model="babi.expression" id="account_invoice_total_amount">
             <field name="ttype">float</field>
-            <field name="model" search="[('model','=','account.invoice')]"/>
+            <field name="model" search="[('name','=','account.invoice')]"/>
             <field name="expression">o.total_amount</field>
             <field name="name">Total Amount</field>
         </record>
         <record model="babi.expression" id="account_invoice_city">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.invoice')]"/>
+            <field name="model" search="[('name','=','account.invoice')]"/>
             <field name="expression">o.invoice_address.city</field>
             <field name="name">City</field>
         </record>
         <record model="babi.expression" id="account_invoice_zip">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.invoice')]"/>
+            <field name="model" search="[('name','=','account.invoice')]"/>
             <field name="expression">o.invoice_address.postal_code</field>
             <field name="name">Zip</field>
         </record>
         <record model="babi.expression" id="account_invoice_region">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.invoice')]"/>
+            <field name="model" search="[('name','=','account.invoice')]"/>
             <field name="expression">o.invoice_address.subdivision and o.invoice_address.subdivision.rec_name</field>
             <field name="name">State/Region</field>
         </record>
         <record model="babi.expression" id="account_invoice_country">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.invoice')]"/>
+            <field name="model" search="[('name','=','account.invoice')]"/>
             <field name="expression">o.invoice_address.country and o.invoice_address.country.rec_name</field>
             <field name="name">Country</field>
         </record>
         <record model="babi.expression" id="account_invoice_currency_name">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.invoice')]"/>
+            <field name="model" search="[('name','=','account.invoice')]"/>
             <field name="expression">o.currency.rec_name</field>
             <field name="name">Currency</field>
         </record>
         <record model="babi.expression" id="account_invoice_payment_term_name">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.invoice')]"/>
+            <field name="model" search="[('name','=','account.invoice')]"/>
             <field name="expression">o.payment_term and o.payment_term.rec_name</field>
             <field name="name">Payment Term</field>
         </record>
         <record model="babi.expression" id="account_invoice_payment_type">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.invoice')]"/>
+            <field name="model" search="[('name','=','account.invoice')]"/>
             <field name="expression">o.payment_type and o.payment_type.rec_name</field>
             <field name="name">Payment Type</field>
         </record>
         <record model="babi.expression" id="account_invoice_period">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.invoice')]"/>
+            <field name="model" search="[('name','=','account.invoice')]"/>
             <field name="expression">o.move and o.move.period.rec_name</field>
             <field name="name">Period</field>
         </record>
         <record model="babi.expression" id="account_invoice_state">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.invoice')]"/>
+            <field name="model" search="[('name','=','account.invoice')]"/>
             <field name="expression">o.state</field>
             <field name="name">State</field>
         </record>
         <record model="babi.expression" id="account_invoice_account_code">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.invoice')]"/>
+            <field name="model" search="[('name','=','account.invoice')]"/>
             <field name="expression">o.account.code</field>
             <field name="name">Account Code</field>
         </record>
         <record model="babi.expression" id="account_invoice_account_name">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.invoice')]"/>
+            <field name="model" search="[('name','=','account.invoice')]"/>
             <field name="expression">o.account.name</field>
             <field name="name">Account Name</field>
         </record>
         <record model="babi.expression" id="account_invoice_type">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.invoice')]"/>
+            <field name="model" search="[('name','=','account.invoice')]"/>
             <field name="expression">o.type</field>
             <field name="name">Invoice Type</field>
         </record>
@@ -221,209 +221,209 @@
         <!-- account.invoice.line -->
         <record model="babi.expression" id="account_invoice_line">
             <field name="ttype">float</field>
-            <field name="model" search="[('model','=','account.invoice.line')]"/>
+            <field name="model" search="[('name','=','account.invoice.line')]"/>
             <field name="expression">o.id</field>
             <field name="name">ID</field>
         </record>
         <record model="babi.expression" id="account_invoice_line_year">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.invoice.line')]"/>
+            <field name="model" search="[('name','=','account.invoice.line')]"/>
             <field name="expression">y(o.invoice and o.invoice.invoice_date)</field>
             <field name="name">Year</field>
         </record>
         <record model="babi.expression" id="account_invoice_line_month">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.invoice.line')]"/>
+            <field name="model" search="[('name','=','account.invoice.line')]"/>
             <field name="expression">m(o.invoice and o.invoice.invoice_date)</field>
             <field name="name">Month</field>
         </record>
         <record model="babi.expression" id="account_invoice_line_day">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.invoice.line')]"/>
+            <field name="model" search="[('name','=','account.invoice.line')]"/>
             <field name="expression">d(o.invoice and o.invoice.invoice_date)</field>
             <field name="name">Day</field>
         </record>
         <record model="babi.expression" id="account_invoice_line_year_month">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.invoice.line')]"/>
+            <field name="model" search="[('name','=','account.invoice.line')]"/>
             <field name="expression">ym(o.invoice and o.invoice.invoice_date)</field>
             <field name="name">Year-Month</field>
         </record>
         <record model="babi.expression" id="account_invoice_line_date">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.invoice.line')]"/>
+            <field name="model" search="[('name','=','account.invoice.line')]"/>
             <field name="expression">o.invoice and o.invoice.invoice_date</field>
             <field name="name">Date</field>
         </record>
         <record model="babi.expression" id="account_invoice_line_partner_name">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.invoice.line')]"/>
+            <field name="model" search="[('name','=','account.invoice.line')]"/>
             <field name="expression">o.invoice and o.invoice.party.rec_name</field>
             <field name="name">Party Name</field>
         </record>
         <record model="babi.expression" id="account_invoice_line_untaxed_amount">
             <field name="ttype">float</field>
-            <field name="model" search="[('model','=','account.invoice.line')]"/>
+            <field name="model" search="[('name','=','account.invoice.line')]"/>
             <field name="expression">o.invoice and o.invoice.untaxed_amount</field>
             <field name="name">Invoice Untaxed Amount</field>
         </record>
         <record model="babi.expression" id="account_invoice_line_total_amount">
             <field name="ttype">float</field>
-            <field name="model" search="[('model','=','account.invoice.line')]"/>
+            <field name="model" search="[('name','=','account.invoice.line')]"/>
             <field name="expression">o.invoice and o.invoice.total_amount</field>
             <field name="name">Invoice Total Amount</field>
         </record>
         <record model="babi.expression" id="account_invoice_line_city">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.invoice.line')]"/>
+            <field name="model" search="[('name','=','account.invoice.line')]"/>
             <field name="expression">o.invoice and o.invoice.invoice_address.city</field>
             <field name="name">City</field>
         </record>
         <record model="babi.expression" id="account_invoice_line_zip">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.invoice.line')]"/>
+            <field name="model" search="[('name','=','account.invoice.line')]"/>
             <field name="expression">o.invoice and o.invoice.invoice_address.postal_code</field>
             <field name="name">Zip</field>
         </record>
         <record model="babi.expression" id="account_invoice_line_region">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.invoice.line')]"/>
+            <field name="model" search="[('name','=','account.invoice.line')]"/>
             <field name="expression">o.invoice and o.invoice.invoice_address.subdivision and o.invoice.invoice_address.subdivision.rec_name</field>
             <field name="name">State/Region</field>
         </record>
         <record model="babi.expression" id="account_invoice_line_country">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.invoice.line')]"/>
+            <field name="model" search="[('name','=','account.invoice.line')]"/>
             <field name="expression">o.invoice and o.invoice.invoice_address.country and o.invoice.invoice_address.country.rec_name</field>
             <field name="name">Country</field>
         </record>
         <record model="babi.expression" id="account_invoice_line_currency">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.invoice.line')]"/>
+            <field name="model" search="[('name','=','account.invoice.line')]"/>
             <field name="expression">o.invoice and o.invoice.currency.rec_name</field>
             <field name="name">Currency</field>
         </record>
         <record model="babi.expression" id="account_invoice_line_payment_term">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.invoice.line')]"/>
+            <field name="model" search="[('name','=','account.invoice.line')]"/>
             <field name="expression">o.invoice and o.invoice.payment_term and o.invoice.payment_term.rec_name</field>
             <field name="name">Payment Term</field>
         </record>
         <record model="babi.expression" id="account_invoice_line_payment_type">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.invoice.line')]"/>
+            <field name="model" search="[('name','=','account.invoice.line')]"/>
             <field name="expression">o.invoice and o.invoice.payment_type and o.invoice.payment_type.rec_name</field>
             <field name="name">Payment Type</field>
         </record>
         <record model="babi.expression" id="account_invoice_line_period_name">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.invoice.line')]"/>
+            <field name="model" search="[('name','=','account.invoice.line')]"/>
             <field name="expression">o.invoice and o.invoice.move and o.invoice.move.period.rec_name</field>
             <field name="name">Period</field>
         </record>
         <record model="babi.expression" id="account_invoice_line_state">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.invoice.line')]"/>
+            <field name="model" search="[('name','=','account.invoice.line')]"/>
             <field name="expression">o.invoice and o.invoice.state</field>
             <field name="name">Invoice State</field>
         </record>
         <record model="babi.expression" id="account_invoice_line_account_code">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.invoice.line')]"/>
+            <field name="model" search="[('name','=','account.invoice.line')]"/>
             <field name="expression">o.invoice and o.invoice.account.code</field>
             <field name="name">Invoice Account Code</field>
         </record>
         <record model="babi.expression" id="account_invoice_line_account_name">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.invoice.line')]"/>
+            <field name="model" search="[('name','=','account.invoice.line')]"/>
             <field name="expression">o.invoice and o.invoice.account.name</field>
             <field name="name">Invoice Account Name</field>
         </record>
         <record model="babi.expression" id="account_invoice_line_product">
             <field name="ttype">many2one</field>
-            <field name="model" search="[('model','=','account.invoice.line')]"/>
+            <field name="model" search="[('name','=','account.invoice.line')]"/>
             <field name="expression">o.product and o.product.id</field>
             <field name="name">Product</field>
-            <field name="related_model" search="[('model', '=', 'product.product')]"/>
+            <field name="related_model" search="[('name', '=', 'product.product')]"/>
         </record>
         <record model="babi.expression" id="account_invoice_line_product_code">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.invoice.line')]"/>
+            <field name="model" search="[('name','=','account.invoice.line')]"/>
             <field name="expression">o.product and o.product.code</field>
             <field name="name">Product Code</field>
         </record>
         <record model="babi.expression" id="account_invoice_line_product_name">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.invoice.line')]"/>
+            <field name="model" search="[('name','=','account.invoice.line')]"/>
             <field name="expression">o.product and o.product.name</field>
             <field name="name">Product Name</field>
         </record>
         <record model="babi.expression" id="account_invoice_line_product_category">
             <field name="ttype">many2one</field>
-            <field name="model" search="[('model','=','account.invoice.line')]"/>
+            <field name="model" search="[('name','=','account.invoice.line')]"/>
             <field name="expression">o.product and o.product.template and o.product.template.account_category and o.product.template.account_category.id</field>
             <field name="name">Product Category</field>
-            <field name="related_model" search="[('model','=','product.category')]"/>
+            <field name="related_model" search="[('name','=','product.category')]"/>
         </record>
         <record model="babi.expression" id="account_invoice_line_quantity">
             <field name="ttype">float</field>
-            <field name="model" search="[('model','=','account.invoice.line')]"/>
+            <field name="model" search="[('name','=','account.invoice.line')]"/>
             <field name="expression">o.quantity</field>
             <field name="name">Quantity (no UoM conversion)</field>
         </record>
         <record model="babi.expression"
                 id="account_invoice_line_line_account_code">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.invoice.line')]"/>
+            <field name="model" search="[('name','=','account.invoice.line')]"/>
             <field name="expression">o.account and o.account.code</field>
             <field name="name">Account Code</field>
         </record>
         <record model="babi.expression"
                 id="account_invoice_line_line_account_name">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.invoice.line')]"/>
+            <field name="model" search="[('name','=','account.invoice.line')]"/>
             <field name="expression">o.account and o.account.name</field>
             <field name="name">Account Name</field>
         </record>
         <record model="babi.expression" id="account_invoice_line_price_unit">
             <field name="ttype">float</field>
-            <field name="model" search="[('model','=','account.invoice.line')]"/>
+            <field name="model" search="[('name','=','account.invoice.line')]"/>
             <field name="expression">o.unit_price</field>
             <field name="name">Unit Price</field>
         </record>
         <record model="babi.expression" id="account_invoice_line_subtotal">
             <field name="ttype">float</field>
-            <field name="model" search="[('model','=','account.invoice.line')]"/>
+            <field name="model" search="[('name','=','account.invoice.line')]"/>
             <field name="expression">o.amount</field>
             <field name="name">Amount</field>
         </record>
         <record model="babi.expression" id="account_invoice_line_uos">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.invoice.line')]"/>
+            <field name="model" search="[('name','=','account.invoice.line')]"/>
             <field name="expression">o.unit and o.unit.rec_name</field>
             <field name="name">UoM</field>
         </record>
         <record model="babi.expression" id="account_invoice_line_tax_name">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.invoice.line')]"/>
+            <field name="model" search="[('name','=','account.invoice.line')]"/>
             <field name="expression">','.join([x.rec_name for x in o.taxes])</field>
             <field name="name">Tax Names</field>
         </record>
         <record model="babi.expression" id="account_invoice_line_tax_code">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.invoice.line')]"/>
+            <field name="model" search="[('name','=','account.invoice.line')]"/>
             <field name="expression">','.join([x.description for x in o.taxes])</field>
             <field name="name">Tax Codes</field>
         </record>
         <record model="babi.expression" id="account_invoice_line_product_type">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.invoice.line')]"/>
+            <field name="model" search="[('name','=','account.invoice.line')]"/>
             <field name="expression">o.product and o.product.type</field>
             <field name="name">Product Type</field>
         </record>
         <record model="babi.expression" id="account_invoice_line_invoice_type">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.invoice.line')]"/>
+            <field name="model" search="[('name','=','account.invoice.line')]"/>
             <field name="expression">o.invoice and o.invoice.type</field>
             <field name="name">Invoice Type</field>
         </record>
@@ -431,19 +431,19 @@
    <data depends="account_invoice_company_currency">
        <record model="babi.expression" id="account_invoice_untaxed_amount_currency">
            <field name="ttype">float</field>
-           <field name="model" search="[('model','=','account.invoice')]"/>
+           <field name="model" search="[('name','=','account.invoice')]"/>
            <field name="expression">o.company_untaxed_amount</field>
            <field name="name">Amount (Company Currency)</field>
        </record>
        <record model="babi.expression" id="account_invoice_total_amount_currency">
            <field name="ttype">float</field>
-           <field name="model" search="[('model','=','account.invoice')]"/>
+           <field name="model" search="[('name','=','account.invoice')]"/>
            <field name="expression">o.company_total_amount</field>
            <field name="name">Total (Company Currency)</field>
        </record>
 	   <record model="babi.expression" id="account_invoice_line_amount_currency">
            <field name="ttype">float</field>
-           <field name="model" search="[('model','=','account.invoice.line')]"/>
+           <field name="model" search="[('name','=','account.invoice.line')]"/>
            <field name="expression">o.company_amount</field>
            <field name="name">Amount (Company Currency)</field>
        </record>
@@ -451,31 +451,31 @@
    <data depends="commission">
        <record model="babi.expression" id="commission_account_invoice_line_cost_price">
            <field name="ttype">float</field>
-           <field name="model" search="[('model','=','account.invoice.line')]"/>
+           <field name="model" search="[('name','=','account.invoice.line')]"/>
            <field name="expression">float(o.product.cost_price or 0.0 if o.product else 0.0) * ( o.quantity is not None and (o.quantity if o.amount > 0 else -o.quantity) or 0.0 )</field>
            <field name="name">Cost Price</field>
        </record>
        <record model="babi.expression" id="commission_account_invoice_line_margin">
            <field name="ttype">float</field>
-           <field name="model" search="[('model','=','account.invoice.line')]"/>
+           <field name="model" search="[('name','=','account.invoice.line')]"/>
            <field name="expression">float(o.amount if o.amount > 0 else -o.amount) - float(o.product.cost_price or 0.0 if o.product else 0.0) * (o.quantity is not None and (o.quantity if o.amount > 0 else -o.quantity) or 0.0) - float(sum([x.amount for x in o.commissions]))</field>
            <field name="name">Margin</field>
        </record>
        <record model="babi.expression" id="commission_account_invoice_line_margin_percent">
            <field name="ttype">float</field>
-           <field name="model" search="[('model','=','account.invoice.line')]"/>
+           <field name="model" search="[('name','=','account.invoice.line')]"/>
            <field name="expression">(float(sum([x.amount for x in o.commissions]))/(float(o.amount if o.amount > 0 else -o.amount) - float(o.product.cost_price or 0.0 if o.product else 0.0) * (o.quantity is not None and (o.quantity if o.amount > 0 else -o.quantity) or 0.0 )))*100 if (float(o.amount if o.amount > 0 else -o.amount) - float(o.product.cost_price or 0.0 if o.product else 0.0) * (o.quantity is not None and (o.quantity if o.amount > 0 else -o.quantity) or 0.0)) != 0 else 0.0</field>
            <field name="name">Commission (%) Over Margin</field>
        </record>
        <record model="babi.expression" id="commission_account_invoice_line_commission_percent">
            <field name="ttype">float</field>
-           <field name="model" search="[('model','=','account.invoice.line')]"/>
+           <field name="model" search="[('name','=','account.invoice.line')]"/>
            <field name="expression">(sum([x.amount for x in o.commissions]) / (o.amount if o.amount > 0 else -o.amount))*100 if o.amount else 0.0</field>
            <field name="name">Commission (%)</field>
        </record>
        <record model="babi.expression" id="commission_account_invoice_line_commission_percent_over_margin">
           <field name="ttype">float</field>
-          <field name="model" search="[('model','=','account.invoice.line')]"/>
+          <field name="model" search="[('name','=','account.invoice.line')]"/>
           <field name="expression">((float(o.amount if o.amount > 0 else -o.amount) - float(o.product.cost_price or 0.0 if o.product else 0.0) * (o.quantity is not None and (o.quantity if o.amount > 0 else -o.quantity) or 0.0) - float(sum([x.amount for x in o.commissions])))/float(o.amount))*100 if o.amount != 0 else 0.0</field>
           <field name="name">Margin (%) Over Sale</field>
         </record>
@@ -483,7 +483,7 @@
    <data depends="account_invoice_discount">
        <record model="babi.expression" id="account_invoice_line_discount">
            <field name="ttype">float</field>
-           <field name="model" search="[('model','=','account.invoice.line')]"/>
+           <field name="model" search="[('name','=','account.invoice.line')]"/>
            <field name="expression">o.discount</field>
            <field name="name">Discount</field>
        </record>
@@ -491,13 +491,13 @@
    <data depends="stock">
        <record model="babi.expression" id="account_invoice_line_available_quantity">
            <field name="ttype">float</field>
-           <field name="model" search="[('model','=','account.invoice.line')]"/>
+           <field name="model" search="[('name','=','account.invoice.line')]"/>
            <field name="expression">o.product and o.product.quantity</field>
            <field name="name">Product Available Quantity</field>
        </record>
        <record model="babi.expression" id="account_invoice_line_virtual_quantity">
            <field name="ttype">float</field>
-           <field name="model" search="[('model','=','account.invoice.line')]"/>
+           <field name="model" search="[('name','=','account.invoice.line')]"/>
            <field name="expression">o.product and o.product.forecast_quantity</field>
            <field name="name">Product Forecast Quantity</field>
        </record>
