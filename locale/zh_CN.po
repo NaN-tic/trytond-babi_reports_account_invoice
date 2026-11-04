@@ -1,0 +1,608 @@
+#
+msgid ""
+msgstr ""
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt ""
+"model:babi.dimension,name:invoice_line_partner_product_year_month__month"
+msgid "Month"
+msgstr "月"
+
+msgctxt ""
+"model:babi.dimension,name:invoice_line_partner_product_year_month__partner"
+msgid "Party"
+msgstr "参与者"
+
+msgctxt ""
+"model:babi.dimension,name:invoice_line_partner_product_year_month__product"
+msgid "Product"
+msgstr "产品"
+
+msgctxt ""
+"model:babi.dimension,name:invoice_line_partner_product_year_month__year"
+msgid "Year"
+msgstr "年"
+
+msgctxt "model:babi.dimension,name:invoice_line_product_year_month__month"
+msgid "Month"
+msgstr "月"
+
+msgctxt "model:babi.dimension,name:invoice_line_product_year_month__product"
+msgid "Product"
+msgstr "产品"
+
+msgctxt "model:babi.dimension,name:invoice_line_product_year_month__year"
+msgid "Year"
+msgstr "年"
+
+msgctxt ""
+"model:babi.dimension,name:invoice_line_year_product_country_state_city__city"
+msgid "City"
+msgstr "城市"
+
+msgctxt ""
+"model:babi.dimension,name:invoice_line_year_product_country_state_city__country"
+msgid "Country"
+msgstr "国家"
+
+msgctxt ""
+"model:babi.dimension,name:invoice_line_year_product_country_state_city__state"
+msgid "State/Region"
+msgstr "省/地区"
+
+msgctxt "model:babi.dimension,name:invoice_line_year_product_month__month"
+msgid "Month"
+msgstr "月"
+
+msgctxt "model:babi.dimension,name:invoice_line_year_product_month__product"
+msgid "Product"
+msgstr "产品"
+
+msgctxt "model:babi.dimension,name:invoice_line_year_product_month__year"
+msgid "Year"
+msgstr "年"
+
+msgctxt ""
+"model:babi.dimension,name:invoice_line_year_productcategory_product__category"
+msgid "Product Category"
+msgstr "产品类别"
+
+msgctxt ""
+"model:babi.dimension,name:invoice_line_year_saleaccount_month__account_name"
+msgid "Sale Account"
+msgstr "销售科目"
+
+msgctxt "model:babi.dimension,name:invoice_line_year_saleaccount_month__month"
+msgid "Month"
+msgstr "月"
+
+msgctxt "model:babi.dimension,name:invoice_line_year_saleaccount_month__year"
+msgid "Year"
+msgstr "年"
+
+msgctxt "model:babi.dimension,name:invoice_month_year__month"
+msgid "Month"
+msgstr "月"
+
+msgctxt "model:babi.dimension,name:invoice_month_year__year"
+msgid "Year-Month"
+msgstr "年月"
+
+msgctxt "model:babi.dimension,name:invoice_month_year_date__date"
+msgid "Day"
+msgstr "天"
+
+msgctxt "model:babi.dimension,name:invoice_month_year_date__month"
+msgid "Month"
+msgstr "月"
+
+msgctxt "model:babi.dimension,name:invoice_partner_year_month__month"
+msgid "Month"
+msgstr "月"
+
+msgctxt "model:babi.dimension,name:invoice_partner_year_month__partner"
+msgid "Party"
+msgstr "参与者"
+
+msgctxt "model:babi.dimension,name:invoice_partner_year_month__year"
+msgid "Year"
+msgstr "年"
+
+msgctxt "model:babi.dimension,name:invoice_supplier_year_month__number"
+msgid "Invoice"
+msgstr "原始凭证"
+
+msgctxt "model:babi.dimension,name:invoice_supplier_year_month__partner"
+msgid "Party"
+msgstr "参与者"
+
+msgctxt "model:babi.dimension,name:invoice_supplier_year_month__year_month"
+msgid "Year-Month"
+msgstr "年月"
+
+msgctxt "model:babi.dimension,name:invoice_year_country_state_city__city"
+msgid "City"
+msgstr "城市"
+
+msgctxt "model:babi.dimension,name:invoice_year_country_state_city__country"
+msgid "Country"
+msgstr "国家"
+
+msgctxt "model:babi.dimension,name:invoice_year_country_state_city__state"
+msgid "State/Region"
+msgstr "省/地区"
+
+msgctxt "model:babi.dimension,name:invoice_year_country_state_city__year"
+msgid "Year"
+msgstr "年"
+
+msgctxt "model:babi.dimension,name:invoice_year_partner_month__month"
+msgid "Month"
+msgstr "月"
+
+msgctxt "model:babi.dimension,name:invoice_year_partner_month__partner"
+msgid "Partner"
+msgstr "合作伙伴"
+
+msgctxt "model:babi.dimension,name:invoice_year_partner_month__year"
+msgid "Year"
+msgstr "年"
+
+msgctxt "model:babi.dimension,name:invoice_year_paymenttype__payment_type"
+msgid "Payment Type"
+msgstr "付款方式"
+
+msgctxt "model:babi.dimension,name:invoice_year_paymenttype__year"
+msgid "Year"
+msgstr "年"
+
+msgctxt "model:babi.dimension.column,name:invoice_month_year_date__year"
+msgid "Year"
+msgstr "年"
+
+msgctxt "model:babi.expression,name:"
+msgid "Total Amount"
+msgstr "总额"
+
+msgctxt "model:babi.expression,name:account_invoice"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "model:babi.expression,name:account_invoice_account_code"
+msgid "Account Code"
+msgstr "科目代码"
+
+msgctxt "model:babi.expression,name:account_invoice_account_name"
+msgid "Account Name"
+msgstr "科目名称"
+
+msgctxt "model:babi.expression,name:account_invoice_city"
+msgid "City"
+msgstr "城市"
+
+msgctxt "model:babi.expression,name:account_invoice_country"
+msgid "Country"
+msgstr "国家"
+
+msgctxt "model:babi.expression,name:account_invoice_currency_name"
+msgid "Currency"
+msgstr "货币"
+
+msgctxt "model:babi.expression,name:account_invoice_date"
+msgid "Date"
+msgstr "日期"
+
+msgctxt "model:babi.expression,name:account_invoice_day"
+msgid "Day"
+msgstr "天"
+
+msgctxt "model:babi.expression,name:account_invoice_line"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "model:babi.expression,name:account_invoice_line_account_code"
+msgid "Invoice Account Code"
+msgstr "发票科目代码"
+
+msgctxt "model:babi.expression,name:account_invoice_line_account_name"
+msgid "Invoice Account Name"
+msgstr "发票科目名称"
+
+msgctxt "model:babi.expression,name:account_invoice_line_amount_currency"
+msgid "Amount (Company Currency)"
+msgstr "金额（公司币种）"
+
+msgctxt "model:babi.expression,name:account_invoice_line_available_quantity"
+msgid "Product Available Quantity"
+msgstr "产品可用数量"
+
+msgctxt "model:babi.expression,name:account_invoice_line_city"
+msgid "City"
+msgstr "城市"
+
+msgctxt "model:babi.expression,name:account_invoice_line_country"
+msgid "Country"
+msgstr "国家"
+
+msgctxt "model:babi.expression,name:account_invoice_line_currency"
+msgid "Currency"
+msgstr "货币"
+
+msgctxt "model:babi.expression,name:account_invoice_line_date"
+msgid "Date"
+msgstr "日期"
+
+msgctxt "model:babi.expression,name:account_invoice_line_day"
+msgid "Day"
+msgstr "天"
+
+msgctxt "model:babi.expression,name:account_invoice_line_discount"
+msgid "Discount"
+msgstr "折扣"
+
+msgctxt "model:babi.expression,name:account_invoice_line_line_account_code"
+msgid "Account Code"
+msgstr "科目代码"
+
+msgctxt "model:babi.expression,name:account_invoice_line_line_account_name"
+msgid "Account Name"
+msgstr "科目名称"
+
+msgctxt "model:babi.expression,name:account_invoice_line_month"
+msgid "Month"
+msgstr "月"
+
+msgctxt "model:babi.expression,name:account_invoice_line_partner_name"
+msgid "Party Name"
+msgstr "参与者名称"
+
+msgctxt "model:babi.expression,name:account_invoice_line_payment_term"
+msgid "Payment Term"
+msgstr "支付方式"
+
+msgctxt "model:babi.expression,name:account_invoice_line_payment_type"
+msgid "Payment Type"
+msgstr "付款方式"
+
+msgctxt "model:babi.expression,name:account_invoice_line_period_name"
+msgid "Period"
+msgstr "分期"
+
+msgctxt "model:babi.expression,name:account_invoice_line_price_unit"
+msgid "Unit Price"
+msgstr "单价"
+
+msgctxt "model:babi.expression,name:account_invoice_line_product"
+msgid "Product"
+msgstr "产品"
+
+msgctxt "model:babi.expression,name:account_invoice_line_product_category"
+msgid "Product Category"
+msgstr "产品类别"
+
+msgctxt "model:babi.expression,name:account_invoice_line_product_code"
+msgid "Product Code"
+msgstr "产品代码"
+
+msgctxt "model:babi.expression,name:account_invoice_line_product_name"
+msgid "Product Name"
+msgstr "产品名称"
+
+msgctxt "model:babi.expression,name:account_invoice_line_product_type"
+msgid "Product Type"
+msgstr "产品类型"
+
+msgctxt "model:babi.expression,name:account_invoice_line_quantity"
+msgid "Quantity (no UoM conversion)"
+msgstr "数量（不转换计量单位）"
+
+msgctxt "model:babi.expression,name:account_invoice_line_region"
+msgid "State/Region"
+msgstr "省/地区"
+
+msgctxt "model:babi.expression,name:account_invoice_line_state"
+msgid "Invoice State"
+msgstr "原始凭证状态"
+
+msgctxt "model:babi.expression,name:account_invoice_line_subtotal"
+msgid "Amount"
+msgstr "数额"
+
+msgctxt "model:babi.expression,name:account_invoice_line_tax_code"
+msgid "Tax Codes"
+msgstr "税号"
+
+msgctxt "model:babi.expression,name:account_invoice_line_tax_name"
+msgid "Tax Names"
+msgstr "税项名称"
+
+msgctxt "model:babi.expression,name:account_invoice_line_total_amount"
+msgid "Invoice Total Amount"
+msgstr "发票总额"
+
+msgctxt "model:babi.expression,name:account_invoice_line_untaxed_amount"
+msgid "Invoice Untaxed Amount"
+msgstr "发票未税金额"
+
+msgctxt "model:babi.expression,name:account_invoice_line_uos"
+msgid "UoM"
+msgstr "计量单位"
+
+msgctxt "model:babi.expression,name:account_invoice_line_virtual_quantity"
+msgid "Product Forecast Quantity"
+msgstr "产品预计数量"
+
+msgctxt "model:babi.expression,name:account_invoice_line_year"
+msgid "Year"
+msgstr "年"
+
+msgctxt "model:babi.expression,name:account_invoice_line_year_month"
+msgid "Year-Month"
+msgstr "年月"
+
+msgctxt "model:babi.expression,name:account_invoice_line_zip"
+msgid "Zip"
+msgstr "邮政编码"
+
+msgctxt "model:babi.expression,name:account_invoice_month"
+msgid "Month"
+msgstr "月"
+
+msgctxt "model:babi.expression,name:account_invoice_number"
+msgid "Number"
+msgstr "编号"
+
+msgctxt "model:babi.expression,name:account_invoice_partner_name"
+msgid "Party Name"
+msgstr "参与者名称"
+
+msgctxt "model:babi.expression,name:account_invoice_payment_term_name"
+msgid "Payment Term"
+msgstr "支付方式"
+
+msgctxt "model:babi.expression,name:account_invoice_payment_type"
+msgid "Payment Type"
+msgstr "付款方式"
+
+msgctxt "model:babi.expression,name:account_invoice_period"
+msgid "Period"
+msgstr "分期"
+
+msgctxt "model:babi.expression,name:account_invoice_region"
+msgid "State/Region"
+msgstr "省/地区"
+
+msgctxt "model:babi.expression,name:account_invoice_self"
+msgid "Invoice"
+msgstr "原始凭证"
+
+msgctxt "model:babi.expression,name:account_invoice_state"
+msgid "State"
+msgstr "状态"
+
+msgctxt "model:babi.expression,name:account_invoice_total_amount"
+msgid "Total Amount"
+msgstr "总额"
+
+msgctxt "model:babi.expression,name:account_invoice_total_amount_currency"
+msgid "Total (Company Currency)"
+msgstr "总额（公司币种）"
+
+msgctxt "model:babi.expression,name:account_invoice_untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "未税金额"
+
+msgctxt "model:babi.expression,name:account_invoice_untaxed_amount_currency"
+msgid "Amount (Company Currency)"
+msgstr "金额（公司币种）"
+
+msgctxt "model:babi.expression,name:account_invoice_week"
+msgid "Week"
+msgstr "周"
+
+msgctxt "model:babi.expression,name:account_invoice_year"
+msgid "Year"
+msgstr "年"
+
+msgctxt "model:babi.expression,name:account_invoice_year_month"
+msgid "Year-Month"
+msgstr "年月"
+
+msgctxt "model:babi.expression,name:account_invoice_zip"
+msgid "Zip"
+msgstr "邮政编码"
+
+msgctxt "model:babi.filter,name:open_customer_invoice_lines"
+msgid "Posted Customer Invoices/credit_notes"
+msgstr "已过账客户发票/贷项通知单"
+
+msgctxt "model:babi.filter,name:open_customer_invoices"
+msgid "Posted Customer Invoices/Credit Notes"
+msgstr "已过账客户发票/贷项通知单"
+
+msgctxt "model:babi.filter,name:open_paid_customer_invoice_lines"
+msgid "Posted/Paid Customer Invoices/Credit Notes"
+msgstr "已过账/已支付客户发票/贷项通知单"
+
+msgctxt "model:babi.filter,name:open_paid_customer_invoices"
+msgid "Posted/Paid Customer Invoices/Credit Notes"
+msgstr "已过账/已支付客户发票/贷项通知单"
+
+msgctxt "model:babi.filter,name:open_paid_supplier_invoice_lines"
+msgid "Posted/Paid Supplier Invoices/Credit Notes"
+msgstr "已过账/已支付供应商发票/贷项通知单"
+
+msgctxt "model:babi.filter,name:open_paid_supplier_invoices"
+msgid "Posted/Paid Supplier Invoices/Credit Notes"
+msgstr "已过账/已支付供应商发票/贷项通知单"
+
+msgctxt "model:babi.filter,name:open_supplier_invoice_lines"
+msgid "Posted Supplier Invoices/credit_notes"
+msgstr "已过账供应商发票/贷项通知单"
+
+msgctxt "model:babi.filter,name:open_supplier_invoices"
+msgid "Posted Supplier Invoices/Credit Notes"
+msgstr "已过账供应商发票/贷项通知单"
+
+msgctxt "model:babi.filter,name:paid_customer_invoice_lines"
+msgid "Paid Customer Invoices/credit_notes"
+msgstr "已支付客户发票/贷项通知单"
+
+msgctxt "model:babi.filter,name:paid_customer_invoices"
+msgid "Paid Customer Invoices/Credit Notes"
+msgstr "已支付客户发票/贷项通知单"
+
+msgctxt "model:babi.filter,name:paid_supplier_invoice_lines"
+msgid "Paid Supplier Invoices/credit_notes"
+msgstr "已支付供应商发票/贷项通知单"
+
+msgctxt "model:babi.filter,name:paid_supplier_invoices"
+msgid "Paid Supplier Invoices/Credit Notes"
+msgstr "已支付供应商发票/贷项通知单"
+
+msgctxt ""
+"model:babi.measure,name:invoice_line_partner_product_year_month__quantity"
+msgid "Quantity"
+msgstr "数量"
+
+msgctxt ""
+"model:babi.measure,name:invoice_line_partner_product_year_month__subtotal"
+msgid "Subtotal"
+msgstr "小计"
+
+msgctxt "model:babi.measure,name:invoice_line_product_year_month__quantity"
+msgid "Quantity"
+msgstr "数量"
+
+msgctxt "model:babi.measure,name:invoice_line_product_year_month__subtotal"
+msgid "Subtotal"
+msgstr "小计"
+
+msgctxt "model:babi.measure,name:invoice_line_year_product_month__quantity"
+msgid "Quantity"
+msgstr "数量"
+
+msgctxt "model:babi.measure,name:invoice_line_year_product_month__subtotal"
+msgid "Amount"
+msgstr "数额"
+
+msgctxt "model:babi.measure,name:invoice_month_year__untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "未税金额"
+
+msgctxt "model:babi.measure,name:invoice_month_year_date__untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "未税金额"
+
+msgctxt "model:babi.measure,name:invoice_partner_year_month__untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "未税金额"
+
+msgctxt "model:babi.measure,name:invoice_supplier_year_month__untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "未税金额"
+
+msgctxt ""
+"model:babi.measure,name:invoice_year_country_state_city__untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "未税金额"
+
+msgctxt "model:babi.measure,name:invoice_year_partner_month__untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "未税金额"
+
+msgctxt "model:babi.measure,name:invoice_year_paymenttype__untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "未税金额"
+
+msgctxt "model:babi.report,name:invoice_line_partner_product_year_month"
+msgid "Party - Product - Year - Month"
+msgstr "往来单位 - 产品 - 年 - 月"
+
+msgctxt "model:babi.report,name:invoice_line_product_year_month"
+msgid "Product - Year - Month"
+msgstr "产品 - 年 - 月"
+
+msgctxt "model:babi.report,name:invoice_line_year_product_country_state_city"
+msgid "Year - Product - Country - State - City"
+msgstr "年 - 产品 - 国家 - 省 - 城市"
+
+msgctxt "model:babi.report,name:invoice_line_year_product_month"
+msgid "Year - Product - Month"
+msgstr "年 - 产品 - 月"
+
+msgctxt "model:babi.report,name:invoice_line_year_product_partner_month"
+msgid "Year - Product - Party - Month"
+msgstr "年 - 产品 - 往来单位 - 月"
+
+msgctxt "model:babi.report,name:invoice_line_year_productcategory_product"
+msgid "Year - Product Category - Product"
+msgstr "年 - 产品类别 - 产品"
+
+msgctxt "model:babi.report,name:invoice_line_year_saleaccount_month"
+msgid "Year - Sale Account - Month"
+msgstr "年 - 销售科目 - 月"
+
+msgctxt "model:babi.report,name:invoice_month_year"
+msgid "Month - Year"
+msgstr "月 - 年"
+
+msgctxt "model:babi.report,name:invoice_partner_year_month"
+msgid "Partner - Year - Month"
+msgstr "业务伙伴 - 年 - 月"
+
+msgctxt "model:babi.report,name:invoice_supplier_year_month"
+msgid "Unpaid Supplier - Year-Month - Invoice"
+msgstr "未付款供应商 - 年月 - 发票"
+
+msgctxt "model:babi.report,name:invoice_year_country_state_city"
+msgid "Year - Country - State - City"
+msgstr "年 - 国家 - 省 - 城市"
+
+msgctxt "model:babi.report,name:invoice_year_month_date"
+msgid "Year - Month - Day"
+msgstr "年 - 月 - 日"
+
+msgctxt "model:babi.report,name:invoice_year_partner_month"
+msgid "Year - Partner - Month"
+msgstr "年 - 业务伙伴 - 月"
+
+msgctxt "model:babi.report,name:invoice_year_paymenttype"
+msgid "Year - Payment Type"
+msgstr "年 - 付款类型"
+
+msgctxt ""
+"model:babi.expression,name:commission_account_invoice_line_cost_price"
+msgid "Cost Price"
+msgstr "成本价"
+
+msgctxt "model:babi.expression,name:commission_account_invoice_line_margin"
+msgid "Margin"
+msgstr "利润率"
+
+msgctxt ""
+"model:babi.expression,name:commission_account_invoice_line_margin_percent"
+msgid "Commission (%) Over Margin"
+msgstr "按毛利计算的佣金 (%)"
+
+msgctxt ""
+"model:babi.expression,name:commission_account_invoice_line_commission_percent"
+msgid "Commission (%)"
+msgstr "佣金 (%)"
+
+msgctxt ""
+"model:babi.expression,name:commission_account_invoice_line_commission_percent_over_margin"
+msgid "Margin (%) Over Sale"
+msgstr "销售毛利率 (%)"
+
+msgctxt "model:babi.expression,name:account_invoice_type"
+msgid "Invoice Type"
+msgstr "原始凭证类型"
+
+msgctxt "model:babi.expression,name:account_invoice_line_invoice_type"
+msgid "Invoice Type"
+msgstr "原始凭证类型"
