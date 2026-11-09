@@ -1,0 +1,608 @@
+#
+msgid ""
+msgstr ""
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt ""
+"model:babi.dimension,name:invoice_line_partner_product_year_month__month"
+msgid "Month"
+msgstr "Hónap"
+
+msgctxt ""
+"model:babi.dimension,name:invoice_line_partner_product_year_month__partner"
+msgid "Party"
+msgstr "Ügyfél"
+
+msgctxt ""
+"model:babi.dimension,name:invoice_line_partner_product_year_month__product"
+msgid "Product"
+msgstr "Termék"
+
+msgctxt ""
+"model:babi.dimension,name:invoice_line_partner_product_year_month__year"
+msgid "Year"
+msgstr "Év"
+
+msgctxt "model:babi.dimension,name:invoice_line_product_year_month__month"
+msgid "Month"
+msgstr "Hónap"
+
+msgctxt "model:babi.dimension,name:invoice_line_product_year_month__product"
+msgid "Product"
+msgstr "Termék"
+
+msgctxt "model:babi.dimension,name:invoice_line_product_year_month__year"
+msgid "Year"
+msgstr "Év"
+
+msgctxt ""
+"model:babi.dimension,name:invoice_line_year_product_country_state_city__city"
+msgid "City"
+msgstr "Város"
+
+msgctxt ""
+"model:babi.dimension,name:invoice_line_year_product_country_state_city__country"
+msgid "Country"
+msgstr "Ország"
+
+msgctxt ""
+"model:babi.dimension,name:invoice_line_year_product_country_state_city__state"
+msgid "State/Region"
+msgstr "Állam/régió"
+
+msgctxt "model:babi.dimension,name:invoice_line_year_product_month__month"
+msgid "Month"
+msgstr "Hónap"
+
+msgctxt "model:babi.dimension,name:invoice_line_year_product_month__product"
+msgid "Product"
+msgstr "Termék"
+
+msgctxt "model:babi.dimension,name:invoice_line_year_product_month__year"
+msgid "Year"
+msgstr "Év"
+
+msgctxt ""
+"model:babi.dimension,name:invoice_line_year_productcategory_product__category"
+msgid "Product Category"
+msgstr "Termék kategória"
+
+msgctxt ""
+"model:babi.dimension,name:invoice_line_year_saleaccount_month__account_name"
+msgid "Sale Account"
+msgstr "Értékesítési főkönyvi számla"
+
+msgctxt "model:babi.dimension,name:invoice_line_year_saleaccount_month__month"
+msgid "Month"
+msgstr "Hónap"
+
+msgctxt "model:babi.dimension,name:invoice_line_year_saleaccount_month__year"
+msgid "Year"
+msgstr "Év"
+
+msgctxt "model:babi.dimension,name:invoice_month_year__month"
+msgid "Month"
+msgstr "Hónap"
+
+msgctxt "model:babi.dimension,name:invoice_month_year__year"
+msgid "Year-Month"
+msgstr "Év-hónap"
+
+msgctxt "model:babi.dimension,name:invoice_month_year_date__date"
+msgid "Day"
+msgstr "Nap"
+
+msgctxt "model:babi.dimension,name:invoice_month_year_date__month"
+msgid "Month"
+msgstr "Hónap"
+
+msgctxt "model:babi.dimension,name:invoice_partner_year_month__month"
+msgid "Month"
+msgstr "Hónap"
+
+msgctxt "model:babi.dimension,name:invoice_partner_year_month__partner"
+msgid "Party"
+msgstr "Ügyfél"
+
+msgctxt "model:babi.dimension,name:invoice_partner_year_month__year"
+msgid "Year"
+msgstr "Év"
+
+msgctxt "model:babi.dimension,name:invoice_supplier_year_month__number"
+msgid "Invoice"
+msgstr "Számla"
+
+msgctxt "model:babi.dimension,name:invoice_supplier_year_month__partner"
+msgid "Party"
+msgstr "Ügyfél"
+
+msgctxt "model:babi.dimension,name:invoice_supplier_year_month__year_month"
+msgid "Year-Month"
+msgstr "Év-hónap"
+
+msgctxt "model:babi.dimension,name:invoice_year_country_state_city__city"
+msgid "City"
+msgstr "Város"
+
+msgctxt "model:babi.dimension,name:invoice_year_country_state_city__country"
+msgid "Country"
+msgstr "Ország"
+
+msgctxt "model:babi.dimension,name:invoice_year_country_state_city__state"
+msgid "State/Region"
+msgstr "Állam/régió"
+
+msgctxt "model:babi.dimension,name:invoice_year_country_state_city__year"
+msgid "Year"
+msgstr "Év"
+
+msgctxt "model:babi.dimension,name:invoice_year_partner_month__month"
+msgid "Month"
+msgstr "Hónap"
+
+msgctxt "model:babi.dimension,name:invoice_year_partner_month__partner"
+msgid "Partner"
+msgstr "Partner"
+
+msgctxt "model:babi.dimension,name:invoice_year_partner_month__year"
+msgid "Year"
+msgstr "Év"
+
+msgctxt "model:babi.dimension,name:invoice_year_paymenttype__payment_type"
+msgid "Payment Type"
+msgstr "Fizetési mód"
+
+msgctxt "model:babi.dimension,name:invoice_year_paymenttype__year"
+msgid "Year"
+msgstr "Év"
+
+msgctxt "model:babi.dimension.column,name:invoice_month_year_date__year"
+msgid "Year"
+msgstr "Év"
+
+msgctxt "model:babi.expression,name:"
+msgid "Total Amount"
+msgstr "Sorok összege"
+
+msgctxt "model:babi.expression,name:account_invoice"
+msgid "ID"
+msgstr "Azonosító"
+
+msgctxt "model:babi.expression,name:account_invoice_account_code"
+msgid "Account Code"
+msgstr "Főkönyvi számla kódja"
+
+msgctxt "model:babi.expression,name:account_invoice_account_name"
+msgid "Account Name"
+msgstr "Főkönyvi számla neve"
+
+msgctxt "model:babi.expression,name:account_invoice_city"
+msgid "City"
+msgstr "Város"
+
+msgctxt "model:babi.expression,name:account_invoice_country"
+msgid "Country"
+msgstr "Ország"
+
+msgctxt "model:babi.expression,name:account_invoice_currency_name"
+msgid "Currency"
+msgstr "Pénznem"
+
+msgctxt "model:babi.expression,name:account_invoice_date"
+msgid "Date"
+msgstr "Dátum"
+
+msgctxt "model:babi.expression,name:account_invoice_day"
+msgid "Day"
+msgstr "Nap"
+
+msgctxt "model:babi.expression,name:account_invoice_line"
+msgid "ID"
+msgstr "Azonosító"
+
+msgctxt "model:babi.expression,name:account_invoice_line_account_code"
+msgid "Invoice Account Code"
+msgstr "Számla főkönyvi számlájának kódja"
+
+msgctxt "model:babi.expression,name:account_invoice_line_account_name"
+msgid "Invoice Account Name"
+msgstr "Számla főkönyvi számlájának neve"
+
+msgctxt "model:babi.expression,name:account_invoice_line_amount_currency"
+msgid "Amount (Company Currency)"
+msgstr "Összeg (vállalati pénznem)"
+
+msgctxt "model:babi.expression,name:account_invoice_line_available_quantity"
+msgid "Product Available Quantity"
+msgstr "Termék elérhető mennyisége"
+
+msgctxt "model:babi.expression,name:account_invoice_line_city"
+msgid "City"
+msgstr "Város"
+
+msgctxt "model:babi.expression,name:account_invoice_line_country"
+msgid "Country"
+msgstr "Ország"
+
+msgctxt "model:babi.expression,name:account_invoice_line_currency"
+msgid "Currency"
+msgstr "Pénznem"
+
+msgctxt "model:babi.expression,name:account_invoice_line_date"
+msgid "Date"
+msgstr "Dátum"
+
+msgctxt "model:babi.expression,name:account_invoice_line_day"
+msgid "Day"
+msgstr "Nap"
+
+msgctxt "model:babi.expression,name:account_invoice_line_discount"
+msgid "Discount"
+msgstr "Engedmény"
+
+msgctxt "model:babi.expression,name:account_invoice_line_line_account_code"
+msgid "Account Code"
+msgstr "Főkönyvi számla kódja"
+
+msgctxt "model:babi.expression,name:account_invoice_line_line_account_name"
+msgid "Account Name"
+msgstr "Főkönyvi számla neve"
+
+msgctxt "model:babi.expression,name:account_invoice_line_month"
+msgid "Month"
+msgstr "Hónap"
+
+msgctxt "model:babi.expression,name:account_invoice_line_partner_name"
+msgid "Party Name"
+msgstr "Ügyfél neve"
+
+msgctxt "model:babi.expression,name:account_invoice_line_payment_term"
+msgid "Payment Term"
+msgstr "Fizetési feltétel"
+
+msgctxt "model:babi.expression,name:account_invoice_line_payment_type"
+msgid "Payment Type"
+msgstr "Fizetési mód"
+
+msgctxt "model:babi.expression,name:account_invoice_line_period_name"
+msgid "Period"
+msgstr "Periódus"
+
+msgctxt "model:babi.expression,name:account_invoice_line_price_unit"
+msgid "Unit Price"
+msgstr "Egységár"
+
+msgctxt "model:babi.expression,name:account_invoice_line_product"
+msgid "Product"
+msgstr "Termék"
+
+msgctxt "model:babi.expression,name:account_invoice_line_product_category"
+msgid "Product Category"
+msgstr "Termék kategória"
+
+msgctxt "model:babi.expression,name:account_invoice_line_product_code"
+msgid "Product Code"
+msgstr "Termékkód"
+
+msgctxt "model:babi.expression,name:account_invoice_line_product_name"
+msgid "Product Name"
+msgstr "Terméknév"
+
+msgctxt "model:babi.expression,name:account_invoice_line_product_type"
+msgid "Product Type"
+msgstr "Terméktípus"
+
+msgctxt "model:babi.expression,name:account_invoice_line_quantity"
+msgid "Quantity (no UoM conversion)"
+msgstr "Mennyiség (mértékegység-átváltás nélkül)"
+
+msgctxt "model:babi.expression,name:account_invoice_line_region"
+msgid "State/Region"
+msgstr "Állam/régió"
+
+msgctxt "model:babi.expression,name:account_invoice_line_state"
+msgid "Invoice State"
+msgstr "Számlázás állapota"
+
+msgctxt "model:babi.expression,name:account_invoice_line_subtotal"
+msgid "Amount"
+msgstr "Összeg"
+
+msgctxt "model:babi.expression,name:account_invoice_line_tax_code"
+msgid "Tax Codes"
+msgstr "Adóesetek"
+
+msgctxt "model:babi.expression,name:account_invoice_line_tax_name"
+msgid "Tax Names"
+msgstr "Adók nevei"
+
+msgctxt "model:babi.expression,name:account_invoice_line_total_amount"
+msgid "Invoice Total Amount"
+msgstr "Számla végösszege"
+
+msgctxt "model:babi.expression,name:account_invoice_line_untaxed_amount"
+msgid "Invoice Untaxed Amount"
+msgstr "Számla nettó összege"
+
+msgctxt "model:babi.expression,name:account_invoice_line_uos"
+msgid "UoM"
+msgstr "Mértékegység"
+
+msgctxt "model:babi.expression,name:account_invoice_line_virtual_quantity"
+msgid "Product Forecast Quantity"
+msgstr "Termék előrejelzett mennyisége"
+
+msgctxt "model:babi.expression,name:account_invoice_line_year"
+msgid "Year"
+msgstr "Év"
+
+msgctxt "model:babi.expression,name:account_invoice_line_year_month"
+msgid "Year-Month"
+msgstr "Év-hónap"
+
+msgctxt "model:babi.expression,name:account_invoice_line_zip"
+msgid "Zip"
+msgstr "Irányítószám"
+
+msgctxt "model:babi.expression,name:account_invoice_month"
+msgid "Month"
+msgstr "Hónap"
+
+msgctxt "model:babi.expression,name:account_invoice_number"
+msgid "Number"
+msgstr "Szám"
+
+msgctxt "model:babi.expression,name:account_invoice_partner_name"
+msgid "Party Name"
+msgstr "Ügyfél neve"
+
+msgctxt "model:babi.expression,name:account_invoice_payment_term_name"
+msgid "Payment Term"
+msgstr "Fizetési feltétel"
+
+msgctxt "model:babi.expression,name:account_invoice_payment_type"
+msgid "Payment Type"
+msgstr "Fizetési mód"
+
+msgctxt "model:babi.expression,name:account_invoice_period"
+msgid "Period"
+msgstr "Periódus"
+
+msgctxt "model:babi.expression,name:account_invoice_region"
+msgid "State/Region"
+msgstr "Állam/régió"
+
+msgctxt "model:babi.expression,name:account_invoice_self"
+msgid "Invoice"
+msgstr "Számla"
+
+msgctxt "model:babi.expression,name:account_invoice_state"
+msgid "State"
+msgstr "Állapot"
+
+msgctxt "model:babi.expression,name:account_invoice_total_amount"
+msgid "Total Amount"
+msgstr "Sorok összege"
+
+msgctxt "model:babi.expression,name:account_invoice_total_amount_currency"
+msgid "Total (Company Currency)"
+msgstr "Összesen (vállalati pénznem)"
+
+msgctxt "model:babi.expression,name:account_invoice_untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "Nettó összeg"
+
+msgctxt "model:babi.expression,name:account_invoice_untaxed_amount_currency"
+msgid "Amount (Company Currency)"
+msgstr "Összeg (vállalati pénznem)"
+
+msgctxt "model:babi.expression,name:account_invoice_week"
+msgid "Week"
+msgstr "Hét"
+
+msgctxt "model:babi.expression,name:account_invoice_year"
+msgid "Year"
+msgstr "Év"
+
+msgctxt "model:babi.expression,name:account_invoice_year_month"
+msgid "Year-Month"
+msgstr "Év-hónap"
+
+msgctxt "model:babi.expression,name:account_invoice_zip"
+msgid "Zip"
+msgstr "Irányítószám"
+
+msgctxt "model:babi.filter,name:open_customer_invoice_lines"
+msgid "Posted Customer Invoices/credit_notes"
+msgstr "Könyvelt vevői számlák/jóváírások"
+
+msgctxt "model:babi.filter,name:open_customer_invoices"
+msgid "Posted Customer Invoices/Credit Notes"
+msgstr "Könyvelt vevői számlák/jóváírások"
+
+msgctxt "model:babi.filter,name:open_paid_customer_invoice_lines"
+msgid "Posted/Paid Customer Invoices/Credit Notes"
+msgstr "Könyvelt/kifizetett vevői számlák/jóváírások"
+
+msgctxt "model:babi.filter,name:open_paid_customer_invoices"
+msgid "Posted/Paid Customer Invoices/Credit Notes"
+msgstr "Könyvelt/kifizetett vevői számlák/jóváírások"
+
+msgctxt "model:babi.filter,name:open_paid_supplier_invoice_lines"
+msgid "Posted/Paid Supplier Invoices/Credit Notes"
+msgstr "Könyvelt/kifizetett szállítói számlák/jóváírások"
+
+msgctxt "model:babi.filter,name:open_paid_supplier_invoices"
+msgid "Posted/Paid Supplier Invoices/Credit Notes"
+msgstr "Könyvelt/kifizetett szállítói számlák/jóváírások"
+
+msgctxt "model:babi.filter,name:open_supplier_invoice_lines"
+msgid "Posted Supplier Invoices/credit_notes"
+msgstr "Könyvelt szállítói számlák/jóváírások"
+
+msgctxt "model:babi.filter,name:open_supplier_invoices"
+msgid "Posted Supplier Invoices/Credit Notes"
+msgstr "Könyvelt szállítói számlák/jóváírások"
+
+msgctxt "model:babi.filter,name:paid_customer_invoice_lines"
+msgid "Paid Customer Invoices/credit_notes"
+msgstr "Kifizetett vevői számlák/jóváírások"
+
+msgctxt "model:babi.filter,name:paid_customer_invoices"
+msgid "Paid Customer Invoices/Credit Notes"
+msgstr "Kifizetett vevői számlák/jóváírások"
+
+msgctxt "model:babi.filter,name:paid_supplier_invoice_lines"
+msgid "Paid Supplier Invoices/credit_notes"
+msgstr "Kifizetett szállítói számlák/jóváírások"
+
+msgctxt "model:babi.filter,name:paid_supplier_invoices"
+msgid "Paid Supplier Invoices/Credit Notes"
+msgstr "Kifizetett szállítói számlák/jóváírások"
+
+msgctxt ""
+"model:babi.measure,name:invoice_line_partner_product_year_month__quantity"
+msgid "Quantity"
+msgstr "Mennyiség"
+
+msgctxt ""
+"model:babi.measure,name:invoice_line_partner_product_year_month__subtotal"
+msgid "Subtotal"
+msgstr "Részösszeg"
+
+msgctxt "model:babi.measure,name:invoice_line_product_year_month__quantity"
+msgid "Quantity"
+msgstr "Mennyiség"
+
+msgctxt "model:babi.measure,name:invoice_line_product_year_month__subtotal"
+msgid "Subtotal"
+msgstr "Részösszeg"
+
+msgctxt "model:babi.measure,name:invoice_line_year_product_month__quantity"
+msgid "Quantity"
+msgstr "Mennyiség"
+
+msgctxt "model:babi.measure,name:invoice_line_year_product_month__subtotal"
+msgid "Amount"
+msgstr "Összeg"
+
+msgctxt "model:babi.measure,name:invoice_month_year__untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "Nettó összeg"
+
+msgctxt "model:babi.measure,name:invoice_month_year_date__untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "Nettó összeg"
+
+msgctxt "model:babi.measure,name:invoice_partner_year_month__untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "Nettó összeg"
+
+msgctxt "model:babi.measure,name:invoice_supplier_year_month__untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "Nettó összeg"
+
+msgctxt ""
+"model:babi.measure,name:invoice_year_country_state_city__untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "Nettó összeg"
+
+msgctxt "model:babi.measure,name:invoice_year_partner_month__untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "Nettó összeg"
+
+msgctxt "model:babi.measure,name:invoice_year_paymenttype__untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "Nettó összeg"
+
+msgctxt "model:babi.report,name:invoice_line_partner_product_year_month"
+msgid "Party - Product - Year - Month"
+msgstr "Partner – termék – év – hónap"
+
+msgctxt "model:babi.report,name:invoice_line_product_year_month"
+msgid "Product - Year - Month"
+msgstr "Termék – év – hónap"
+
+msgctxt "model:babi.report,name:invoice_line_year_product_country_state_city"
+msgid "Year - Product - Country - State - City"
+msgstr "Év – termék – ország – állam – város"
+
+msgctxt "model:babi.report,name:invoice_line_year_product_month"
+msgid "Year - Product - Month"
+msgstr "Év – termék – hónap"
+
+msgctxt "model:babi.report,name:invoice_line_year_product_partner_month"
+msgid "Year - Product - Party - Month"
+msgstr "Év – termék – partner – hónap"
+
+msgctxt "model:babi.report,name:invoice_line_year_productcategory_product"
+msgid "Year - Product Category - Product"
+msgstr "Év – termékkategória – termék"
+
+msgctxt "model:babi.report,name:invoice_line_year_saleaccount_month"
+msgid "Year - Sale Account - Month"
+msgstr "Év – értékesítési főkönyvi számla – hónap"
+
+msgctxt "model:babi.report,name:invoice_month_year"
+msgid "Month - Year"
+msgstr "Hónap – év"
+
+msgctxt "model:babi.report,name:invoice_partner_year_month"
+msgid "Partner - Year - Month"
+msgstr "Partner – év – hónap"
+
+msgctxt "model:babi.report,name:invoice_supplier_year_month"
+msgid "Unpaid Supplier - Year-Month - Invoice"
+msgstr "Kifizetetlen szállító – év-hónap – számla"
+
+msgctxt "model:babi.report,name:invoice_year_country_state_city"
+msgid "Year - Country - State - City"
+msgstr "Év – ország – állam – város"
+
+msgctxt "model:babi.report,name:invoice_year_month_date"
+msgid "Year - Month - Day"
+msgstr "Év – hónap – nap"
+
+msgctxt "model:babi.report,name:invoice_year_partner_month"
+msgid "Year - Partner - Month"
+msgstr "Év – partner – hónap"
+
+msgctxt "model:babi.report,name:invoice_year_paymenttype"
+msgid "Year - Payment Type"
+msgstr "Év – fizetési típus"
+
+msgctxt ""
+"model:babi.expression,name:commission_account_invoice_line_cost_price"
+msgid "Cost Price"
+msgstr "Költségár"
+
+msgctxt "model:babi.expression,name:commission_account_invoice_line_margin"
+msgid "Margin"
+msgstr "Árrés"
+
+msgctxt ""
+"model:babi.expression,name:commission_account_invoice_line_margin_percent"
+msgid "Commission (%) Over Margin"
+msgstr "Jutalék (%) az árrés alapján"
+
+msgctxt ""
+"model:babi.expression,name:commission_account_invoice_line_commission_percent"
+msgid "Commission (%)"
+msgstr "Jutalék (%)"
+
+msgctxt ""
+"model:babi.expression,name:commission_account_invoice_line_commission_percent_over_margin"
+msgid "Margin (%) Over Sale"
+msgstr "Árrés (%) az értékesítés alapján"
+
+msgctxt "model:babi.expression,name:account_invoice_type"
+msgid "Invoice Type"
+msgstr "Számla típusa"
+
+msgctxt "model:babi.expression,name:account_invoice_line_invoice_type"
+msgid "Invoice Type"
+msgstr "Számla típusa"
