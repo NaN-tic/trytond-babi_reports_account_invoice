@@ -1,0 +1,607 @@
+#
+msgid ""
+msgstr ""
+"Language: km\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt ""
+"model:babi.dimension,name:invoice_line_partner_product_year_month__month"
+msgid "Month"
+msgstr "ខែ"
+
+msgctxt ""
+"model:babi.dimension,name:invoice_line_partner_product_year_month__partner"
+msgid "Party"
+msgstr "ភាគី"
+
+msgctxt ""
+"model:babi.dimension,name:invoice_line_partner_product_year_month__product"
+msgid "Product"
+msgstr "ផលិតផល"
+
+msgctxt ""
+"model:babi.dimension,name:invoice_line_partner_product_year_month__year"
+msgid "Year"
+msgstr "ឆ្នាំ"
+
+msgctxt "model:babi.dimension,name:invoice_line_product_year_month__month"
+msgid "Month"
+msgstr "ខែ"
+
+msgctxt "model:babi.dimension,name:invoice_line_product_year_month__product"
+msgid "Product"
+msgstr "ផលិតផល"
+
+msgctxt "model:babi.dimension,name:invoice_line_product_year_month__year"
+msgid "Year"
+msgstr "ឆ្នាំ"
+
+msgctxt ""
+"model:babi.dimension,name:invoice_line_year_product_country_state_city__city"
+msgid "City"
+msgstr "ទីក្រុង"
+
+msgctxt ""
+"model:babi.dimension,name:invoice_line_year_product_country_state_city__country"
+msgid "Country"
+msgstr "ប្រទេស"
+
+msgctxt ""
+"model:babi.dimension,name:invoice_line_year_product_country_state_city__state"
+msgid "State/Region"
+msgstr "រដ្ឋ/តំបន់"
+
+msgctxt "model:babi.dimension,name:invoice_line_year_product_month__month"
+msgid "Month"
+msgstr "ខែ"
+
+msgctxt "model:babi.dimension,name:invoice_line_year_product_month__product"
+msgid "Product"
+msgstr "ផលិតផល"
+
+msgctxt "model:babi.dimension,name:invoice_line_year_product_month__year"
+msgid "Year"
+msgstr "ឆ្នាំ"
+
+msgctxt ""
+"model:babi.dimension,name:invoice_line_year_productcategory_product__category"
+msgid "Product Category"
+msgstr "ប្រភេទផលិតផល"
+
+msgctxt ""
+"model:babi.dimension,name:invoice_line_year_saleaccount_month__account_name"
+msgid "Sale Account"
+msgstr "គណនីលក់"
+
+msgctxt "model:babi.dimension,name:invoice_line_year_saleaccount_month__month"
+msgid "Month"
+msgstr "ខែ"
+
+msgctxt "model:babi.dimension,name:invoice_line_year_saleaccount_month__year"
+msgid "Year"
+msgstr "ឆ្នាំ"
+
+msgctxt "model:babi.dimension,name:invoice_month_year__month"
+msgid "Month"
+msgstr "ខែ"
+
+msgctxt "model:babi.dimension,name:invoice_month_year__year"
+msgid "Year-Month"
+msgstr "ឆ្នាំ-ខែ"
+
+msgctxt "model:babi.dimension,name:invoice_month_year_date__date"
+msgid "Day"
+msgstr "ថ្ងៃ"
+
+msgctxt "model:babi.dimension,name:invoice_month_year_date__month"
+msgid "Month"
+msgstr "ខែ"
+
+msgctxt "model:babi.dimension,name:invoice_partner_year_month__month"
+msgid "Month"
+msgstr "ខែ"
+
+msgctxt "model:babi.dimension,name:invoice_partner_year_month__partner"
+msgid "Party"
+msgstr "ភាគី"
+
+msgctxt "model:babi.dimension,name:invoice_partner_year_month__year"
+msgid "Year"
+msgstr "ឆ្នាំ"
+
+msgctxt "model:babi.dimension,name:invoice_supplier_year_month__number"
+msgid "Invoice"
+msgstr "វិក្កយបត្រ"
+
+msgctxt "model:babi.dimension,name:invoice_supplier_year_month__partner"
+msgid "Party"
+msgstr "ភាគី"
+
+msgctxt "model:babi.dimension,name:invoice_supplier_year_month__year_month"
+msgid "Year-Month"
+msgstr "ឆ្នាំ-ខែ"
+
+msgctxt "model:babi.dimension,name:invoice_year_country_state_city__city"
+msgid "City"
+msgstr "ទីក្រុង"
+
+msgctxt "model:babi.dimension,name:invoice_year_country_state_city__country"
+msgid "Country"
+msgstr "ប្រទេស"
+
+msgctxt "model:babi.dimension,name:invoice_year_country_state_city__state"
+msgid "State/Region"
+msgstr "រដ្ឋ/តំបន់"
+
+msgctxt "model:babi.dimension,name:invoice_year_country_state_city__year"
+msgid "Year"
+msgstr "ឆ្នាំ"
+
+msgctxt "model:babi.dimension,name:invoice_year_partner_month__month"
+msgid "Month"
+msgstr "ខែ"
+
+msgctxt "model:babi.dimension,name:invoice_year_partner_month__partner"
+msgid "Partner"
+msgstr "ដៃគូ"
+
+msgctxt "model:babi.dimension,name:invoice_year_partner_month__year"
+msgid "Year"
+msgstr "ឆ្នាំ"
+
+msgctxt "model:babi.dimension,name:invoice_year_paymenttype__payment_type"
+msgid "Payment Type"
+msgstr "ប្រភេទការទូទាត់"
+
+msgctxt "model:babi.dimension,name:invoice_year_paymenttype__year"
+msgid "Year"
+msgstr "ឆ្នាំ"
+
+msgctxt "model:babi.dimension.column,name:invoice_month_year_date__year"
+msgid "Year"
+msgstr "ឆ្នាំ"
+
+msgctxt "model:babi.expression,name:"
+msgid "Total Amount"
+msgstr "ចំនួនទឹកប្រាក់សរុប"
+
+msgctxt "model:babi.expression,name:account_invoice"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "model:babi.expression,name:account_invoice_account_code"
+msgid "Account Code"
+msgstr "កូដគណនី"
+
+msgctxt "model:babi.expression,name:account_invoice_account_name"
+msgid "Account Name"
+msgstr "ឈ្មោះគណនី"
+
+msgctxt "model:babi.expression,name:account_invoice_city"
+msgid "City"
+msgstr "ទីក្រុង"
+
+msgctxt "model:babi.expression,name:account_invoice_country"
+msgid "Country"
+msgstr "ប្រទេស"
+
+msgctxt "model:babi.expression,name:account_invoice_currency_name"
+msgid "Currency"
+msgstr "រូបិយប័ណ្ណ"
+
+msgctxt "model:babi.expression,name:account_invoice_date"
+msgid "Date"
+msgstr "កាលបរិច្ឆេទ"
+
+msgctxt "model:babi.expression,name:account_invoice_day"
+msgid "Day"
+msgstr "ថ្ងៃ"
+
+msgctxt "model:babi.expression,name:account_invoice_line"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "model:babi.expression,name:account_invoice_line_account_code"
+msgid "Invoice Account Code"
+msgstr "កូដគណនីវិក្កយបត្រ"
+
+msgctxt "model:babi.expression,name:account_invoice_line_account_name"
+msgid "Invoice Account Name"
+msgstr "ឈ្មោះគណនីវិក្កយបត្រ"
+
+msgctxt "model:babi.expression,name:account_invoice_line_amount_currency"
+msgid "Amount (Company Currency)"
+msgstr "ចំនួនទឹកប្រាក់ (រូបិយប័ណ្ណក្រុមហ៊ុន)"
+
+msgctxt "model:babi.expression,name:account_invoice_line_available_quantity"
+msgid "Product Available Quantity"
+msgstr "បរិមាណផលិតផលមានស្រាប់"
+
+msgctxt "model:babi.expression,name:account_invoice_line_city"
+msgid "City"
+msgstr "ទីក្រុង"
+
+msgctxt "model:babi.expression,name:account_invoice_line_country"
+msgid "Country"
+msgstr "ប្រទេស"
+
+msgctxt "model:babi.expression,name:account_invoice_line_currency"
+msgid "Currency"
+msgstr "រូបិយប័ណ្ណ"
+
+msgctxt "model:babi.expression,name:account_invoice_line_date"
+msgid "Date"
+msgstr "កាលបរិច្ឆេទ"
+
+msgctxt "model:babi.expression,name:account_invoice_line_day"
+msgid "Day"
+msgstr "ថ្ងៃ"
+
+msgctxt "model:babi.expression,name:account_invoice_line_discount"
+msgid "Discount"
+msgstr "ការបញ្ចុះតម្លៃ"
+
+msgctxt "model:babi.expression,name:account_invoice_line_line_account_code"
+msgid "Account Code"
+msgstr "កូដគណនី"
+
+msgctxt "model:babi.expression,name:account_invoice_line_line_account_name"
+msgid "Account Name"
+msgstr "ឈ្មោះគណនី"
+
+msgctxt "model:babi.expression,name:account_invoice_line_month"
+msgid "Month"
+msgstr "ខែ"
+
+msgctxt "model:babi.expression,name:account_invoice_line_partner_name"
+msgid "Party Name"
+msgstr "ឈ្មោះភាគី"
+
+msgctxt "model:babi.expression,name:account_invoice_line_payment_term"
+msgid "Payment Term"
+msgstr "លក្ខខណ្ឌទូទាត់"
+
+msgctxt "model:babi.expression,name:account_invoice_line_payment_type"
+msgid "Payment Type"
+msgstr "ប្រភេទការទូទាត់"
+
+msgctxt "model:babi.expression,name:account_invoice_line_period_name"
+msgid "Period"
+msgstr "គ្រា"
+
+msgctxt "model:babi.expression,name:account_invoice_line_price_unit"
+msgid "Unit Price"
+msgstr "តម្លៃឯកតា"
+
+msgctxt "model:babi.expression,name:account_invoice_line_product"
+msgid "Product"
+msgstr "ផលិតផល"
+
+msgctxt "model:babi.expression,name:account_invoice_line_product_category"
+msgid "Product Category"
+msgstr "ប្រភេទផលិតផល"
+
+msgctxt "model:babi.expression,name:account_invoice_line_product_code"
+msgid "Product Code"
+msgstr "កូដផលិតផល"
+
+msgctxt "model:babi.expression,name:account_invoice_line_product_name"
+msgid "Product Name"
+msgstr "ឈ្មោះផលិតផល"
+
+msgctxt "model:babi.expression,name:account_invoice_line_product_type"
+msgid "Product Type"
+msgstr "ប្រភេទផលិតផល"
+
+msgctxt "model:babi.expression,name:account_invoice_line_quantity"
+msgid "Quantity (no UoM conversion)"
+msgstr "បរិមាណ (គ្មានការបម្លែងឯកតារង្វាស់)"
+
+msgctxt "model:babi.expression,name:account_invoice_line_region"
+msgid "State/Region"
+msgstr "រដ្ឋ/តំបន់"
+
+msgctxt "model:babi.expression,name:account_invoice_line_state"
+msgid "Invoice State"
+msgstr "ស្ថានភាពវិក្កយបត្រ"
+
+msgctxt "model:babi.expression,name:account_invoice_line_subtotal"
+msgid "Amount"
+msgstr "ចំនួនទឹកប្រាក់"
+
+msgctxt "model:babi.expression,name:account_invoice_line_tax_code"
+msgid "Tax Codes"
+msgstr "កូដពន្ធ"
+
+msgctxt "model:babi.expression,name:account_invoice_line_tax_name"
+msgid "Tax Names"
+msgstr "ឈ្មោះពន្ធ"
+
+msgctxt "model:babi.expression,name:account_invoice_line_total_amount"
+msgid "Invoice Total Amount"
+msgstr "ចំនួនទឹកប្រាក់វិក្កយបត្រសរុប"
+
+msgctxt "model:babi.expression,name:account_invoice_line_untaxed_amount"
+msgid "Invoice Untaxed Amount"
+msgstr "ចំនួនទឹកប្រាក់វិក្កយបត្រមិនរួមបញ្ចូលពន្ធ"
+
+msgctxt "model:babi.expression,name:account_invoice_line_uos"
+msgid "UoM"
+msgstr "ឯកតារង្វាស់"
+
+msgctxt "model:babi.expression,name:account_invoice_line_virtual_quantity"
+msgid "Product Forecast Quantity"
+msgstr "បរិមាណផលិតផលព្យាករ"
+
+msgctxt "model:babi.expression,name:account_invoice_line_year"
+msgid "Year"
+msgstr "ឆ្នាំ"
+
+msgctxt "model:babi.expression,name:account_invoice_line_year_month"
+msgid "Year-Month"
+msgstr "ឆ្នាំ-ខែ"
+
+msgctxt "model:babi.expression,name:account_invoice_line_zip"
+msgid "Zip"
+msgstr "លេខកូដប្រៃសណីយ៍"
+
+msgctxt "model:babi.expression,name:account_invoice_month"
+msgid "Month"
+msgstr "ខែ"
+
+msgctxt "model:babi.expression,name:account_invoice_number"
+msgid "Number"
+msgstr "លេខ"
+
+msgctxt "model:babi.expression,name:account_invoice_partner_name"
+msgid "Party Name"
+msgstr "ឈ្មោះភាគី"
+
+msgctxt "model:babi.expression,name:account_invoice_payment_term_name"
+msgid "Payment Term"
+msgstr "លក្ខខណ្ឌទូទាត់"
+
+msgctxt "model:babi.expression,name:account_invoice_payment_type"
+msgid "Payment Type"
+msgstr "ប្រភេទការទូទាត់"
+
+msgctxt "model:babi.expression,name:account_invoice_period"
+msgid "Period"
+msgstr "គ្រា"
+
+msgctxt "model:babi.expression,name:account_invoice_region"
+msgid "State/Region"
+msgstr "រដ្ឋ/តំបន់"
+
+msgctxt "model:babi.expression,name:account_invoice_self"
+msgid "Invoice"
+msgstr "វិក្កយបត្រ"
+
+msgctxt "model:babi.expression,name:account_invoice_state"
+msgid "State"
+msgstr "ស្ថានភាព"
+
+msgctxt "model:babi.expression,name:account_invoice_total_amount"
+msgid "Total Amount"
+msgstr "ចំនួនទឹកប្រាក់សរុប"
+
+msgctxt "model:babi.expression,name:account_invoice_total_amount_currency"
+msgid "Total (Company Currency)"
+msgstr "សរុប (រូបិយប័ណ្ណក្រុមហ៊ុន)"
+
+msgctxt "model:babi.expression,name:account_invoice_untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "ចំនួនទឹកប្រាក់មិនរួមបញ្ចូលពន្ធ"
+
+msgctxt "model:babi.expression,name:account_invoice_untaxed_amount_currency"
+msgid "Amount (Company Currency)"
+msgstr "ចំនួនទឹកប្រាក់ (រូបិយប័ណ្ណក្រុមហ៊ុន)"
+
+msgctxt "model:babi.expression,name:account_invoice_week"
+msgid "Week"
+msgstr "សប្តាហ៍"
+
+msgctxt "model:babi.expression,name:account_invoice_year"
+msgid "Year"
+msgstr "ឆ្នាំ"
+
+msgctxt "model:babi.expression,name:account_invoice_year_month"
+msgid "Year-Month"
+msgstr "ឆ្នាំ-ខែ"
+
+msgctxt "model:babi.expression,name:account_invoice_zip"
+msgid "Zip"
+msgstr "លេខកូដប្រៃសណីយ៍"
+
+msgctxt "model:babi.filter,name:open_customer_invoice_lines"
+msgid "Posted Customer Invoices/credit_notes"
+msgstr "វិក្កយបត្រ និងប័ណ្ណឥណទានអតិថិជនដែលបានកត់ក្នុងបញ្ជី"
+
+msgctxt "model:babi.filter,name:open_customer_invoices"
+msgid "Posted Customer Invoices/Credit Notes"
+msgstr "វិក្កយបត្រ និងប័ណ្ណឥណទានអតិថិជនដែលបានកត់ក្នុងបញ្ជី"
+
+msgctxt "model:babi.filter,name:open_paid_customer_invoice_lines"
+msgid "Posted/Paid Customer Invoices/Credit Notes"
+msgstr "វិក្កយបត្រ និងប័ណ្ណឥណទានអតិថិជនដែលបានកត់ក្នុងបញ្ជី ឬបានទូទាត់"
+
+msgctxt "model:babi.filter,name:open_paid_customer_invoices"
+msgid "Posted/Paid Customer Invoices/Credit Notes"
+msgstr "វិក្កយបត្រ និងប័ណ្ណឥណទានអតិថិជនដែលបានកត់ក្នុងបញ្ជី ឬបានទូទាត់"
+
+msgctxt "model:babi.filter,name:open_paid_supplier_invoice_lines"
+msgid "Posted/Paid Supplier Invoices/Credit Notes"
+msgstr "វិក្កយបត្រ និងប័ណ្ណឥណទានអ្នកផ្គត់ផ្គង់ដែលបានកត់ក្នុងបញ្ជី ឬបានទូទាត់"
+
+msgctxt "model:babi.filter,name:open_paid_supplier_invoices"
+msgid "Posted/Paid Supplier Invoices/Credit Notes"
+msgstr "វិក្កយបត្រ និងប័ណ្ណឥណទានអ្នកផ្គត់ផ្គង់ដែលបានកត់ក្នុងបញ្ជី ឬបានទូទាត់"
+
+msgctxt "model:babi.filter,name:open_supplier_invoice_lines"
+msgid "Posted Supplier Invoices/credit_notes"
+msgstr "វិក្កយបត្រ និងប័ណ្ណឥណទានអ្នកផ្គត់ផ្គង់ដែលបានកត់ក្នុងបញ្ជី"
+
+msgctxt "model:babi.filter,name:open_supplier_invoices"
+msgid "Posted Supplier Invoices/Credit Notes"
+msgstr "វិក្កយបត្រ និងប័ណ្ណឥណទានអ្នកផ្គត់ផ្គង់ដែលបានកត់ក្នុងបញ្ជី"
+
+msgctxt "model:babi.filter,name:paid_customer_invoice_lines"
+msgid "Paid Customer Invoices/credit_notes"
+msgstr "វិក្កយបត្រ និងប័ណ្ណឥណទានអតិថិជនដែលបានទូទាត់"
+
+msgctxt "model:babi.filter,name:paid_customer_invoices"
+msgid "Paid Customer Invoices/Credit Notes"
+msgstr "វិក្កយបត្រ និងប័ណ្ណឥណទានអតិថិជនដែលបានទូទាត់"
+
+msgctxt "model:babi.filter,name:paid_supplier_invoice_lines"
+msgid "Paid Supplier Invoices/credit_notes"
+msgstr "វិក្កយបត្រ និងប័ណ្ណឥណទានអ្នកផ្គត់ផ្គង់ដែលបានទូទាត់"
+
+msgctxt "model:babi.filter,name:paid_supplier_invoices"
+msgid "Paid Supplier Invoices/Credit Notes"
+msgstr "វិក្កយបត្រ និងប័ណ្ណឥណទានអ្នកផ្គត់ផ្គង់ដែលបានទូទាត់"
+
+msgctxt ""
+"model:babi.measure,name:invoice_line_partner_product_year_month__quantity"
+msgid "Quantity"
+msgstr "បរិមាណ"
+
+msgctxt ""
+"model:babi.measure,name:invoice_line_partner_product_year_month__subtotal"
+msgid "Subtotal"
+msgstr "សរុបរង"
+
+msgctxt "model:babi.measure,name:invoice_line_product_year_month__quantity"
+msgid "Quantity"
+msgstr "បរិមាណ"
+
+msgctxt "model:babi.measure,name:invoice_line_product_year_month__subtotal"
+msgid "Subtotal"
+msgstr "សរុបរង"
+
+msgctxt "model:babi.measure,name:invoice_line_year_product_month__quantity"
+msgid "Quantity"
+msgstr "បរិមាណ"
+
+msgctxt "model:babi.measure,name:invoice_line_year_product_month__subtotal"
+msgid "Amount"
+msgstr "ចំនួនទឹកប្រាក់"
+
+msgctxt "model:babi.measure,name:invoice_month_year__untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "ចំនួនទឹកប្រាក់មិនរួមបញ្ចូលពន្ធ"
+
+msgctxt "model:babi.measure,name:invoice_month_year_date__untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "ចំនួនទឹកប្រាក់មិនរួមបញ្ចូលពន្ធ"
+
+msgctxt "model:babi.measure,name:invoice_partner_year_month__untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "ចំនួនទឹកប្រាក់មិនរួមបញ្ចូលពន្ធ"
+
+msgctxt "model:babi.measure,name:invoice_supplier_year_month__untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "ចំនួនទឹកប្រាក់មិនរួមបញ្ចូលពន្ធ"
+
+msgctxt ""
+"model:babi.measure,name:invoice_year_country_state_city__untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "ចំនួនទឹកប្រាក់មិនរួមបញ្ចូលពន្ធ"
+
+msgctxt "model:babi.measure,name:invoice_year_partner_month__untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "ចំនួនទឹកប្រាក់មិនរួមបញ្ចូលពន្ធ"
+
+msgctxt "model:babi.measure,name:invoice_year_paymenttype__untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "ចំនួនទឹកប្រាក់មិនរួមបញ្ចូលពន្ធ"
+
+msgctxt "model:babi.report,name:invoice_line_partner_product_year_month"
+msgid "Party - Product - Year - Month"
+msgstr "ភាគី - ផលិតផល - ឆ្នាំ - ខែ"
+
+msgctxt "model:babi.report,name:invoice_line_product_year_month"
+msgid "Product - Year - Month"
+msgstr "ផលិតផល - ឆ្នាំ - ខែ"
+
+msgctxt "model:babi.report,name:invoice_line_year_product_country_state_city"
+msgid "Year - Product - Country - State - City"
+msgstr "ឆ្នាំ - ផលិតផល - ប្រទេស - រដ្ឋ - ក្រុង"
+
+msgctxt "model:babi.report,name:invoice_line_year_product_month"
+msgid "Year - Product - Month"
+msgstr "ឆ្នាំ - ផលិតផល - ខែ"
+
+msgctxt "model:babi.report,name:invoice_line_year_product_partner_month"
+msgid "Year - Product - Party - Month"
+msgstr "ឆ្នាំ - ផលិតផល - ភាគី - ខែ"
+
+msgctxt "model:babi.report,name:invoice_line_year_productcategory_product"
+msgid "Year - Product Category - Product"
+msgstr "ឆ្នាំ - ប្រភេទផលិតផល - ផលិតផល"
+
+msgctxt "model:babi.report,name:invoice_line_year_saleaccount_month"
+msgid "Year - Sale Account - Month"
+msgstr "ឆ្នាំ - គណនីលក់ - ខែ"
+
+msgctxt "model:babi.report,name:invoice_month_year"
+msgid "Month - Year"
+msgstr "ខែ - ឆ្នាំ"
+
+msgctxt "model:babi.report,name:invoice_partner_year_month"
+msgid "Partner - Year - Month"
+msgstr "ដៃគូ - ឆ្នាំ - ខែ"
+
+msgctxt "model:babi.report,name:invoice_supplier_year_month"
+msgid "Unpaid Supplier - Year-Month - Invoice"
+msgstr "វិក្កយបត្រអ្នកផ្គត់ផ្គង់ដែលមិនទាន់បានទូទាត់ - ឆ្នាំ-ខែ - វិក្កយបត្រ"
+
+msgctxt "model:babi.report,name:invoice_year_country_state_city"
+msgid "Year - Country - State - City"
+msgstr "ឆ្នាំ - ប្រទេស - រដ្ឋ - ក្រុង"
+
+msgctxt "model:babi.report,name:invoice_year_month_date"
+msgid "Year - Month - Day"
+msgstr "ឆ្នាំ - ខែ - ថ្ងៃ"
+
+msgctxt "model:babi.report,name:invoice_year_partner_month"
+msgid "Year - Partner - Month"
+msgstr "ឆ្នាំ - ភាគី - ខែ"
+
+msgctxt "model:babi.report,name:invoice_year_paymenttype"
+msgid "Year - Payment Type"
+msgstr "ឆ្នាំ - ប្រភេទការទូទាត់"
+
+msgctxt "model:babi.expression,name:commission_account_invoice_line_cost_price"
+msgid "Cost Price"
+msgstr "ថ្លៃដើម"
+
+msgctxt "model:babi.expression,name:commission_account_invoice_line_margin"
+msgid "Margin"
+msgstr "រឹមប្រាក់ចំណេញ"
+
+msgctxt ""
+"model:babi.expression,name:commission_account_invoice_line_margin_percent"
+msgid "Commission (%) Over Margin"
+msgstr "កម្រៃជើងសាជាភាគរយនៃរឹមប្រាក់ចំណេញ (%)"
+
+msgctxt ""
+"model:babi.expression,name:commission_account_invoice_line_commission_percent"
+msgid "Commission (%)"
+msgstr "កម្រៃជើងសា (%)"
+
+msgctxt ""
+"model:babi.expression,name:commission_account_invoice_line_commission_percent_over_margin"
+msgid "Margin (%) Over Sale"
+msgstr "រឹមប្រាក់ចំណេញជាភាគរយនៃការលក់ (%)"
+
+msgctxt "model:babi.expression,name:account_invoice_type"
+msgid "Invoice Type"
+msgstr "ប្រភេទវិក្កយបត្រ"
+
+msgctxt "model:babi.expression,name:account_invoice_line_invoice_type"
+msgid "Invoice Type"
+msgstr "ប្រភេទវិក្កយបត្រ"
